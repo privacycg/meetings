@@ -5,6 +5,6 @@
 * Introductions
 * Welcome from the chairs
 * Consider possible initial deliverables
-* Discuss Private Click Measurement
-* Discuss Storage Access API
+    * [Private Click Measurement](https://github.com/privacycg/proposals/issues/1)
+    * [Storage Access API](https://github.com/privacycg/proposals/issues/2)
 * Any other business
