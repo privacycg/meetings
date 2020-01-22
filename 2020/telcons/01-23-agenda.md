@@ -22,7 +22,7 @@
     * [proposals](https://github.com/privacycg/proposals) and their
       [workflow](https://github.com/privacycg/proposals#proposal-workflow)
     * [deliverables](https://privacycg.github.io/charter.html#deliverables)
-      use a [WHATWG-style](https://whatwg.org/faq#process)
+      and our [WHATWG-style](https://whatwg.org/faq#process)
       [process](https://privacycg.github.io/charter.html#process),
       [work mode](https://privacycg.github.io/charter.html#work-mode),
       and
