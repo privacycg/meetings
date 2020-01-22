@@ -12,6 +12,7 @@
       [decision policy](https://privacycg.github.io/charter.html#decisions)
     * [GitHub](https://github.com/privacycg)
         * [proposals repo](https://github.com/privacycg/proposals)
+        * [Proposal workflow](https://github.com/privacycg/proposals#proposal-workflow)
         * [meetings repo](https://github.com/privacycg/meetings)
     * `#privacycg` in [PING](https://www.w3.org/Privacy/IG/)'s [Slack](https://w3cping.slack.com/)
 * Consider possible initial deliverables
