@@ -89,7 +89,7 @@ Tess: Our proposals will be discussed on our [Github account](https://github.com
 
 ### Deliverables
 
-- Tess: Once multiple browsers have supported a proposal, the proposal becomes a deliverable.  Deliverables have two parts (i) explainer and (ii) spec.  The explainer describes the problem being solved; the spec is the solution to the problem.
+- Tess: Once a proposal has matured and multiple implementers express support for it, the group may take up the proposal as a deliverable.  Deliverables have two parts (i) explainer and (ii) spec.  The explainer describes the problem being solved; the spec is the solution to the problem.
 
 - Nick Doty:  How implementation driven will the decision process be?  How to adjudicate between different proposals, which both have multiple implementations?
 
