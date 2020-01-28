@@ -85,7 +85,7 @@
 
 ### Proposals
 
-Tess: Our proposals will be discussed on our [Github account](https://github.com/privacycg/proposals).  We hope that some of these proposals will firm up, and once they do, proposals will become deliverables.  Proposals must have support from multiple browser implementors.  This "multiple implemetor" requirement is because the web requires interop between different browsers.  For privacy improvements to succeed in making the web _over all_ more private (not just a single vendor) we need to make sure there is buy in from browsers.
+Tess: Our proposals will be discussed on our [Github account](https://github.com/privacycg/proposals).  We hope that some of these proposals will firm up, and once they do, proposals will become deliverables.  In order for proposals to become deliverables, they must have support from multiple browser implementors.  This "multiple implemetor" requirement is because the web requires interop between different browsers.  For privacy improvements to succeed in making the web _over all_ more private (not just a single vendor) we need to make sure there is buy in from browsers.
 
 ### Deliverables
 
