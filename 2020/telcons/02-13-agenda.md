@@ -8,5 +8,9 @@
 ## Agenda
 
 * Introductions
-* [All privacycg open issues labelled agenda+](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2B+is%3Aopen)
+* Charter updates
+* Proposal: [full storage partitioning/double-keying](https://github.com/privacycg/proposals/issues/4)
+* [Storage Access API](https://github.com/privacycg/admin/issues/5)
+  * [Per-frame or per-page storage access](https://github.com/privacycg/storage-access/issues/3)
+  * [Storage types covered](https://github.com/privacycg/storage-access/issues/4)
 * Any other business
