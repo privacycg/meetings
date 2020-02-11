@@ -20,9 +20,11 @@ Minutes will be taken in [this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/co
 ## Agenda
 
 * Introductions
-* Charter updates
+* Charter updates:
+    * [New deliverable: Storage Access API](https://github.com/privacycg/admin/issues/5)
+    * [Other updates](https://github.com/privacycg/admin/issues/7)
+* [Storage Access API](https://github.com/privacycg/storage-access/)
+    * [Per-frame or per-page storage access](https://github.com/privacycg/storage-access/issues/3)
+    * [Storage types covered](https://github.com/privacycg/storage-access/issues/4)
 * Proposal: [full storage partitioning/double-keying](https://github.com/privacycg/proposals/issues/4)
-* [Storage Access API](https://github.com/privacycg/admin/issues/5)
-  * [Per-frame or per-page storage access](https://github.com/privacycg/storage-access/issues/3)
-  * [Storage types covered](https://github.com/privacycg/storage-access/issues/4)
 * Any other business
