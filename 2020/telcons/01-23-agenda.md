@@ -2,8 +2,20 @@
 
 ## Logistics
 
-* Dial-in details are [the same as PING](https://www.w3.org/Privacy/IG/#meeting-information).
-* Minutes will be taken in [this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/ZrkcuhmVbx1OGyWlTX5L0j8T/).
+Privacy CG calls are at noon Boston time (EST). That translates to
+
+| Time  | Day | Location |
+| ------| --- | -------- |
+| 02:00 | 24 Fri | Tokyo |
+| 04:00 | 24 Fri | Sydney |
+| 09:00 | 23 Thu | San Francisco |
+| 12:00 | 23 Thu | Boston |
+| 17:00 (5 PM) | 23 Thu | London |
+| 18:00 (6 PM) | 23 Thu | Brussels |
+
+Dial-in details are [the same as PING](https://www.w3.org/Privacy/IG/#meeting-information).
+
+Minutes will be taken in [this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/ZrkcuhmVbx1OGyWlTX5L0j8T/).
 
 ## Agenda
 
