@@ -24,4 +24,5 @@ Privacy CG calls are at noon Boston time (EST). That translates to
     * [Bounce Tracking Protection](https://github.com/privacycg/proposals/issues/6)
     * [Pop-up Tracking Protection](https://github.com/privacycg/proposals/issues/7)
     * [Fingerprinting resistance mode](https://github.com/privacycg/proposals/issues/8)
+    * [Debugging mode](https://github.com/privacycg/proposals/issues/9)
 * Any other business
