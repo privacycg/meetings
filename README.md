@@ -1,12 +1,10 @@
 # Privacy Community Group Meetings
 
 This repository contains agendas, minutes, and other materials from
-meetings of the [Privacy CG](https://privacycg.github.io/).
+meetings of the [Privacy CG](https://privacycg.github.io/):
 
-## Teleconferences
-
-The [schedule, agendas, and minutes](2020/telcons/) of our telcons are
-stored in this repository.
+* logistics, agendas, and minutes of [our 2020 face-to-face meetings](2020/)
+* logistics, agendas, and minutes of [our 2020 teleconferences](2020/telcons/)
 
 ## Structure
 
