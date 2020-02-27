@@ -3,6 +3,11 @@
 This repository contains agendas, minutes, and other materials from
 meetings of the [Privacy CG](https://privacycg.github.io/).
 
+## Teleconferences
+
+The [schedule, agendas, and minutes](2020/telcons/) of our telcons are
+stored in this repository.
+
 ## Structure
 
 The structure of the repo is as follows:
