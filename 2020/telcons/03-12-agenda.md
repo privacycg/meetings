@@ -24,7 +24,6 @@ Note that **the USA is on summer time** as of this past weekend, so the call tim
 * The [privacycg organization](https://github.com/privacycg) on GitHub
     * [membership](https://github.com/orgs/privacycg/people) is open to all CG [participants](https://www.w3.org/community/privacycg/participants)
     * its [teams](https://github.com/orgs/privacycg/teams) ([all](https://github.com/orgs/privacycg/teams/all), [contributors](https://github.com/orgs/privacycg/teams/contributors), [editors](https://github.com/orgs/privacycg/teams/editors), [chairs](https://github.com/orgs/privacycg/teams/chairs), [w3t](https://github.com/orgs/privacycg/teams/w3t))
-* New work item: [Private Click Measurement](https://github.com/wicg/ad-click-attribution) (from [WICG](https://github.com/WICG))
 * [Storage Access API](https://github.com/privacycg/storage-access)
     * [Active or passive storage access after explicit user opt-in](https://github.com/privacycg/storage-access/issues/2)
     * [Per-Frame or Per-Page Storage Access](https://github.com/privacycg/storage-access/issues/3)
