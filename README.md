@@ -13,7 +13,7 @@ We have three kinds of meetings:
 
     The scheduling and logistics of such calls may vary depending on the topic and expected attendees. Agendas and minutes for such meetings are posted in the same place as our regularly-scheduled plenary calls.
 
-    If you would like us to have an ad-hoc call on some topic of interest to you, please [file an issue in this repo](https://github.com/privacycg/meetings/issues/new) requesting one.
+    If you would like us to have an ad-hoc call on some topic of interest to you, please [file an issue in this repo](https://github.com/privacycg/meetings/issues/new) requesting one! Be sure to tag people you think would be interested.
 
 ## Structure
 
