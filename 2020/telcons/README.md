@@ -53,5 +53,7 @@ We use [this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/ZrkcuhmVbx
 
 ## Useful links for chairs when creating agendas
 
-* [all issues labeled agenda+ across our org](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2B&unscoped_q=label%3Aagenda%2B)
+* [everything labeled agenda+ across our org](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2B&unscoped_q=label%3Aagenda%2B)
+* [all open issues across our org](https://github.com/search?q=org%3Aprivacycg+is%3Aissue+is%3Aopen)
+* [all open PRs across our org](https://github.com/search?q=org%3Aprivacycg+is%3Apr+is%3Aopen)
 * [what is noon boston time in other timezones for a given day](https://www.timeanddate.com/worldclock/converter.html)
