@@ -6,11 +6,11 @@ noon Boston time (EDT). That translates to
 | Time  | Day | Location |
 | ------| --- | -------- |
 | 01:00 | Fri | Tokyo |
-| 03:00 | Fri | Sydney |
+| 02:00 | Fri | Sydney |
 | 09:00 | Thu | San Francisco |
 | 12:00 | Thu | Boston |
-| 16:00 (4 PM) | Thu | London |
-| 17:00 (5 PM) | Thu | Brussels |
+| 17:00 (5 PM) | Thu | London |
+| 18:00 (6 PM) | Thu | Brussels |
 
 We use [this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/ZrkcuhmVbx1OGyWlTX5L0j8T/) for taking minutes.
 
