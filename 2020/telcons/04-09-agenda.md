@@ -19,8 +19,9 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 ## Agenda
 * Introductions
 * Charter updates
-* Face-to-face update
-* Agenda+ items
+  * [2020-04-02 charter updates](https://github.com/privacycg/admin/issues/12)
+* [Face-to-face](https://github.com/privacycg/meetings/issues/3) update
+* [Agenda+ items](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2B&unscoped_q=label%3Aagenda%2B)
 * Any other business
 
 ## Dial-in details
