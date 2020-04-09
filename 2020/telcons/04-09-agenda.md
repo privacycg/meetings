@@ -23,6 +23,9 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 * [Face-to-face](https://github.com/privacycg/meetings/issues/3) update
 * [Agenda+ items](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2B&unscoped_q=label%3Aagenda%2B)
   * [Proposal: Implementing Privacy Rights](https://github.com/privacycg/proposals/issues/10)
+  * Storage Access API - [Consider moving API to Navigator](https://github.com/privacycg/storage-access/issues/22)
+  * Storage Access API - [Opt-in mechanism for shared storage access](https://github.com/privacycg/storage-access/issues/17)
+
 * Any other business
 
 ## Dial-in details
