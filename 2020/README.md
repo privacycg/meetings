@@ -1,7 +1,14 @@
 # Privacy Community Group Meetings in 2020
 
-We hope to have two face-to-face meetings in 2020.
+We will have two face-to-face meetings in 2020.
 
-* Our inaugural F2F in the first half of the year, somewhere in North
-  America
-* [October 2020 at TPAC](10-vancouver)
+* [May 2020 Virtual F2F](05-virtual)
+* [October 2020 F2F at TPAC](10-vancouver)
+
+We also have regular [teleconferences](telcons/) throughout the year.
+
+## Useful links for chairs when creating F2F agendas
+
+* [everything labeled agenda+F2F across our org](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2BF2F)
+* [all open issues across our org](https://github.com/search?q=org%3Aprivacycg+is%3Aissue+is%3Aopen)
+* [all open PRs across our org](https://github.com/search?q=org%3Aprivacycg+is%3Apr+is%3Aopen)
