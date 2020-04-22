@@ -8,6 +8,42 @@ We had hoped to have an in-person meeting, but current global situation and in l
 
 Anyone can request that specific issues or PRs be added to the F2F agenda by adding the `agenda+F2F` label to the issue or PR. Here's a list of [every issue and PR that currently has this label](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2BF2F).
 
+## Schedule
+
+All times in UTC.
+
+### 13 May
+
+| Start | End   | Topic                     |
+| ----- | ----- | ------------------------- |
+| 15:00 | 15:30 | Welcome and introductions |
+| 15:30 | 15:55 | TBD                       |
+| 15:55 | 16:05 | Break                     |
+| 16:05 | 16:30 | TBD                       |
+| 16:30 | 16:55 | TBD                       |
+| 16:55 | 17:05 | Break                     |
+| 17:05 | 17:30 | TBD                       |
+| 17:30 | 17:55 | TBD                       |
+| 17:55 | 18:05 | Break                     |
+| 18:05 | 18:30 | TBD                       |
+| 18:30 | 19:00 | TBD                       |
+
+### 14 May
+
+| Start | End   | Topic   |
+| ----- | ----- | ------- |
+| 15:05 | 15:30 | TBD     |
+| 15:30 | 15:55 | TBD     |
+| 15:55 | 16:05 | Break   |
+| 16:05 | 16:30 | TBD     |
+| 16:30 | 16:55 | TBD     |
+| 16:55 | 17:05 | Break   |
+| 17:05 | 17:30 | TBD     |
+| 17:30 | 17:55 | TBD     |
+| 17:55 | 18:05 | Break   |
+| 18:05 | 18:30 | TBD     |
+| 18:30 | 19:00 | Wrap-up |
+
 ## Logistics
 
 ### When
