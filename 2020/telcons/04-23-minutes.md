@@ -56,6 +56,7 @@
 * annevk (Mozilla)
 * Cory Aitchison (Adobe)
 * Sebastian Zimmeck (Wesleyan University)
+* Andrew Knox (Facebook)
 
 ## Zoom
 
