@@ -2,7 +2,7 @@
 * Chair: Tess
 * Scribe: Pete 
 
-## Attendees (sign yourself in)
+## Attendees
 * Erik Anderson (co-chair, Microsoft)
 * Tanvi Vyas (co-chair, Mozilla)
 * Theresa O'Connor (co-chair, Apple)
@@ -100,7 +100,6 @@ https://www.w3.org/community/privacycg/participants
 * …: second, the rules for how proposals become work items (i.e. specs).  More specifically, allows proposal champions and chairs to work together when guiding proposals forward
 * …: also, the definition of an "implementor" was removed, since it was complicated and not useful
 * …: If folks have questions, ask here or on the above issue 13
-
 * Tess: [second charter update](https://github.com/privacycg/admin/issues/14), which adopts client side storage partitioning as a PrivacyCG work item
 
 ## [Registry of Businesses and Domain Name Ownership](https://github.com/privacycg/proposals/issues/11)
@@ -112,22 +111,18 @@ https://www.w3.org/community/privacycg/participants
 * …: This signal could be used by the browser to determine what features / storage / similar sites (and embedded parties) have access to.
 * …: (e.g. un-registered parties might not get access to storage)
 * …: Additionally, the browser could use these signals for auditing purposes, and to determine which organizations have access to which stored values
-
 * John Wilander: This seems related to first-party sets.  Google and first party sets spec authors are here, would like to hear their htoughts
 * …: Q1: what to do about misuse of these lists (can people register for each others' domains)
 * …: Q2: whats the update cadence? 
 * …: Q3: have you considered also registering the purpose of each domain name with the registration
-
 * Jack Frankland: First, re list misuse, makes it more important to limit to trusted authorities (e.g. ICO has a registery for who is a data controller).  User agent could trust / key off this/
 * …: To prevent misuse, would need to be a mechanism to prevent fradulent registrations or folks using data for non-advertised reasons
 * …: ICO requires annual updates, something similar could be done here.
 * …: re purpse, registration could include the legislation the domain follows, and/but could also include other info
-
 * Ben Savage: I like the idea of business saying what legislation they'll follow, and that this could be split off by domain (e.g. CDN does X, but advertising domains / URLs does Y)
 * …: proposal mentions things like GDPR as privacy standards
 * …: these will change quickly, might be better to have industry agreed to "privacy primitives" indepdent of existing legislation
 * …: similar, these industry standards might also clarify what certain "terms of art" mean (e.g. account deletion means X under Y stnadard)
-
 * Kaustubha Govind: I am one of the authors of first party sets (others are on the call)
 * …: 1) Proposal assumes that browser trusts the .well_known advertised information
 * …: First party sets proposal has changed to require that the first party set assertion be signed
@@ -135,34 +130,26 @@ https://www.w3.org/community/privacycg/participants
 * …: the current proposal has and explores a header based way of sites opting into a set
 * …: Additionally, first-party sets proposal anticipates all parties in the same set having shared 1p storage
 * …: Also, the UX mock in the proposal is similar to what Google has in mind
-
 * Brad Lassey: This proposal has some overlap with first party sets
 * …: Also considering using EV certs to assert first-party set membership (though EV cert history is complicated and tricky)
 * …: [Issue 12](https://github.com/krgovind/first-party-sets/issues/12) on the first-party set explainer has more details
-
 * Sam Tingleff: IAB framework has some overlap
 * …: I dig the proposal, there is similarity with concerns on transparency and consent
 * …: incentives are the difficult part
 * …: First party sets might be one incentive to get people to register, but getting participation is a challenge
 * …: Ben mentioned privacy standards, IAB did something similar.  Brazil and Canada (maybe others) seem likely to have their own propsoals
 * …: we should have a global privacy standard, tech lab is trying to get folks into a global policy body to set privacy baselines
-
 * Peter Saint-Andre: to echo previous points about EV certs, there are well known, historically exploded landmines in the area
 * …: second, a lot of functionality is getting hung off this idea (privacy policies, storage access api, first party sets)
 * …: would be better to narrow the scope
-
 * Kris Chapman: re incentives
 * …: users should move away from reasoning about domains, and move to thinking about orgs
 * …: if this is a way to get transparency to users about how data is being shared
 * …: thats a big incentive for adopters / orgaizations
-
 * Wendell Baker: I dig it
-
 * Pete: What started off as a proposal to _reduce_ amount of information being shared is moving in a direction of allowing people to share _more_ information across domains.  Need to be cautious of sensitive information moving around.
-
 * Jack: I didn't realize the overlap with first-party sets
 * …: second, the goal here is to advance user privacy, though allowing sites to share user data (with transparency) is an incentive to get adopters
-
 * Tess: please continue disucssion on github in the relevant issue (linked above)
 
 ## [May 2020 Virtual F2F](https://github.com/privacycg/meetings/tree/master/2020/05-virtual)
@@ -172,7 +159,6 @@ https://www.w3.org/community/privacycg/participants
 * …: There will be a total of 8 hours (w/ breaks).  Will be one track.
 * …: currently soliciting agenda items; please tag on github
 * …: would be good to have presentations too; if you have something you'd like to present please let the PrivacyCG chairs know
-
 * Tess: Im most interested in disucssing partitioning
 
 ## Any other business
@@ -180,7 +166,5 @@ https://www.w3.org/community/privacycg/participants
 ### Announcement ad-hoc meeting on Bounce Tracking right after this
 
 * JohnW: Will we be using the same cryptpad (what you're reading now) and zoom
-
 * Tess: Yes
-
 * Tanvi: We prefer video on for adhoc meetings when possible, to engage better
