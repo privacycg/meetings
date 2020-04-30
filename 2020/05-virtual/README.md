@@ -32,16 +32,14 @@ All times in UTC.
 
 | Start | End   | Topic   |
 | ----- | ----- | ------- |
-| 15:05 | 15:30 | TBD     |
-| 15:30 | 15:55 | TBD     |
+| 15:05 | 15:55 | [Client-Side Storage Partitioning issues](https://github.com/privacycg/storage-partitioning/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) |
 | 15:55 | 16:05 | Break   |
 | 16:05 | 16:30 | TBD     |
 | 16:30 | 16:55 | TBD     |
 | 16:55 | 17:05 | Break   |
-| 17:05 | 17:30 | TBD     |
-| 17:30 | 17:55 | TBD     |
+| 17:05 | 17:55 | [Private Click Measurement issues](https://github.com/privacycg/private-click-measurement/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) |
 | 17:55 | 18:05 | Break   |
-| 18:05 | 18:30 | TBD     |
+| 18:05 | 18:30 | [Storage Access API issues](https://github.com/privacycg/storage-access/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) |
 | 18:30 | 19:00 | Wrap-up |
 
 ## Logistics
