@@ -17,13 +17,13 @@ All times in UTC.
 | Start | End   | Topic                     |
 | ----- | ----- | ------------------------- |
 | 15:00 | 15:30 | Welcome and introductions |
-| 15:30 | 15:55 | Firefox                   |
+| 15:30 | 15:55 | Privacy & Firefox         |
 | 15:55 | 16:05 | Break                     |
-| 16:05 | 16:30 | Microsoft Edge            |
-| 16:30 | 16:55 | Google Chrome             |
+| 16:05 | 16:30 | Privacy & Microsoft Edge  |
+| 16:30 | 16:55 | Privacy & Google Chrome   |
 | 16:55 | 17:05 | Break                     |
-| 17:05 | 17:30 | Brave                     |
-| 17:30 | 17:55 | Safari                    |
+| 17:05 | 17:30 | Privacy & Brave           |
+| 17:30 | 17:55 | Privacy & Safari          |
 | 17:55 | 18:05 | Break                     |
 | 18:05 | 18:30 | PING & Web Adv BG         |
 | 18:30 | 19:00 | Day 1 wrap-up             |
