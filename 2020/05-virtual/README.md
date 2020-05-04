@@ -12,34 +12,34 @@ Anyone can request that specific issues or PRs be added to the F2F agenda by add
 
 All times in UTC.
 
-### 13 May
+### 13 May - Presentations
 
-| Start | End   | Topic                     |
-| ----- | ----- | ------------------------- |
-| 15:00 | 15:30 | Welcome and introductions |
-| 15:30 | 15:55 | Privacy & Firefox         |
-| 15:55 | 16:05 | Break                     |
-| 16:05 | 16:30 | Privacy & Microsoft Edge  |
-| 16:30 | 16:55 | Privacy & Google Chrome   |
-| 16:55 | 17:05 | Break                     |
-| 17:05 | 17:30 | Privacy & Brave           |
-| 17:30 | 17:55 | Privacy & Safari          |
-| 17:55 | 18:05 | Break                     |
-| 18:05 | 18:30 | PING & Web Adv BG         |
-| 18:30 | 19:00 | Day 1 wrap-up             |
+| Start | End   | Topic                   | Presenter                   |
+| ----- | ----- | ----------------------- | --------------------------- |
+| 15:00 | 15:30 | Welcome & introductions | Chairs                      |
+| 15:30 | 15:55 | Privacy & Firefox       | Steven Englehardt           |
+| 15:55 | 16:05 | Break                   |                             |
+| 16:05 | 16:30 | Privacy & Edge          | Scott Low                   |
+| 16:30 | 16:55 | Privacy & Chrome        | TBD                         |
+| 16:55 | 17:05 | Break                   |                             |
+| 17:05 | 17:30 | Privacy & Brave         | Pete Snyder                 |
+| 17:30 | 17:55 | Privacy & Safari        | John Wilander               |
+| 17:55 | 18:05 | Break                   |                             |
+| 18:05 | 18:30 | PING & Web Adv BG       | Pete Snyder & Wendy Seltzer |
+| 18:30 | 19:00 | Day 1 wrap-up           | Chairs                      |
 
-### 14 May
+### 14 May - Work Items
 
-| Start | End   | Topic   |
-| ----- | ----- | ------- |
-| 15:00 | 15:05 | Day 2 kickoff |
-| 15:05 | 15:55 | [Client-Side Storage Partitioning issues](https://github.com/privacycg/storage-partitioning/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) |
-| 15:55 | 16:05 | Break   |
-| 16:05 | 16:55 | [Private Click Measurement issues](https://github.com/privacycg/private-click-measurement/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) |
-| 16:55 | 17:05 | Break   |
-| 17:05 | 17:55 | [Storage Access API issues](https://github.com/privacycg/storage-access/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) |
-| 17:55 | 18:05 | Break   |
-| 18:05 | 19:00 | Conclusions & wrap-up |
+| Start | End   | Topic         | Discussion Lead |
+| ----- | ----- | ------------- | --------------- |
+| 15:00 | 15:05 | Day 2 kickoff | Chairs          |
+| 15:05 | 15:55 | [Client-Side Storage Partitioning](https://github.com/privacycg/storage-partitioning/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) | Anne van Kesteren |
+| 15:55 | 16:05 | Break   | |
+| 16:05 | 16:55 | [Private Click Measurement](https://github.com/privacycg/private-click-measurement/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) | John Wilander |
+| 16:55 | 17:05 | Break   | |
+| 17:05 | 17:55 | [Storage Access API](https://github.com/privacycg/storage-access/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) | Theresa O'Connor |
+| 17:55 | 18:05 | Break   | |
+| 18:05 | 19:00 | Conclusions & wrap-up | Chairs |
 
 ## Logistics
 
