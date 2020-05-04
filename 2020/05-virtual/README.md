@@ -32,13 +32,14 @@ All times in UTC.
 
 | Start | End   | Topic   |
 | ----- | ----- | ------- |
+| 15:00 | 15:05 | Day 2 kickoff |
 | 15:05 | 15:55 | [Client-Side Storage Partitioning issues](https://github.com/privacycg/storage-partitioning/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) |
 | 15:55 | 16:05 | Break   |
 | 16:05 | 16:55 | [Private Click Measurement issues](https://github.com/privacycg/private-click-measurement/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) |
 | 16:55 | 17:05 | Break   |
 | 17:05 | 17:55 | [Storage Access API issues](https://github.com/privacycg/storage-access/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) |
 | 17:55 | 18:05 | Break   |
-| 18:05 | 19:0 | Conclusions & wrap-up |
+| 18:05 | 19:00 | Conclusions & wrap-up |
 
 ## Logistics
 
