@@ -97,7 +97,8 @@ We plan to use the `#privacycg` channel in [PING's slack](https://w3cping.slack.
 As always, we'll use **[this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/ZrkcuhmVbx1OGyWlTX5L0j8T/) for taking minutes**, and we'll use **these Zoom meeting details**:
 
 * Meeting ID: 769 153 986
-* https://mozilla.zoom.us/j/769153986
+* Zoom native client: https://mozilla.zoom.us/j/769153986
+* Zoom web client: https://zoom.us/wc/join/769153986?pwd=?
 
 * One tap mobile
     * +16699009128,,769153986# US (San Jose)
