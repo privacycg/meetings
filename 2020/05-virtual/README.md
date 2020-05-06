@@ -80,6 +80,7 @@ Here's the current draft agenda, as of 6 May:
     * [Private Click Measurement](https://github.com/privacycg/private-click-measurement/)
         * [Select a fraud prevention mechanism](https://github.com/privacycg/private-click-measurement/issues/27)
         * [Consider defining a modern JS API in addition to the tracking pixel mechanism](https://github.com/privacycg/private-click-measurement/issues/31)
+        * [Layering and the Click Through Conversion Measurement Event-Level API](https://github.com/privacycg/private-click-measurement/labels/layering)
     * [Storage Access API](https://github.com/privacycg/storage-access/)
         * [Active or passive storage access after explicit user opt-in](https://github.com/privacycg/storage-access/issues/2)
         * [Storage Types Covered](https://github.com/privacycg/storage-access/issues/4)
@@ -90,6 +91,8 @@ Here's the current draft agenda, as of 6 May:
 Anyone can request that specific issues or PRs be added to the F2F agenda by adding the `agenda+F2F` label to the issue or PR. Here's a list of [every issue and PR that currently has this label](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2BF2F).
 
 ## Logistics
+
+We plan to use the `#privacycg` channel in [PING's slack](https://w3cping.slack.com/) as an informal chat room during the meeting.
 
 As always, we'll use **[this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/ZrkcuhmVbx1OGyWlTX5L0j8T/) for taking minutes**, and we'll use **these Zoom meeting details**:
 
