@@ -20,14 +20,14 @@ We had hoped to have an in-person meeting, but current global situation and in l
 
 The meeting will be held on **13–14 May** at **15:00 to 19:00 UTC**. Those times look like this in common time zones:
 
-| Start  | End | Location |
-| ------ | --- | -------- |
-| 00:00 (Midnight next day) | 04:00 | Tokyo |
-| 01:00 (next day) | 05:00 | Sydney |
-| 08:00 | 12:00 (12 PM) | San Francisco |
-| 11:00 | 15:00 (3 PM) | Boston |
-| 16:00 (4 PM) | 20:00 (8 PM) | London |
-| 17:00 (5 PM) | 21:00 (9 PM) | Brussels |
+| Start                     | End           | Location      |
+| ------------------------- | ------------- | ------------- |
+| 00:00 (Midnight next day) | 04:00         | Tokyo         |
+| 01:00 (next day)          | 05:00         | Sydney        |
+| 08:00                     | 12:00 (12 PM) | San Francisco |
+| 11:00                     | 15:00 (3 PM)  | Boston        |
+| 16:00 (4 PM)              | 20:00 (8 PM)  | London        |
+| 17:00 (5 PM)              | 21:00 (9 PM)  | Brussels      |
 
 All times in UTC below.
 
