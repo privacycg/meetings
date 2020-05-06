@@ -4,46 +4,19 @@ We'll be having our first F2F in May of this year!
 
 We had hoped to have an in-person meeting, but current global situation and in light of [W3C guidance](https://w3c.github.io/Guide/meetings/continuity.html), we will have a virtual meeting instead.
 
-## Agenda
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
 
-Anyone can request that specific issues or PRs be added to the F2F agenda by adding the `agenda+F2F` label to the issue or PR. Here's a list of [every issue and PR that currently has this label](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2BF2F).
+- [Schedule](#schedule)
+  - [Day 1 (13 May)](#day-1-13-may)
+  - [Day 2 (14 May)](#day-2-14-may)
+- [Agenda](#agenda)
+- [Logistics](#logistics)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Schedule
-
-All times in UTC.
-
-### 13 May - Presentations
-
-| Start | End   | Topic                   | Presenter                   |
-| ----- | ----- | ----------------------- | --------------------------- |
-| 15:00 | 15:30 | Welcome & introductions | Chairs                      |
-| 15:30 | 15:55 | Privacy & Firefox       | Steven Englehardt           |
-| 15:55 | 16:05 | Break                   |                             |
-| 16:05 | 16:30 | Privacy & Edge          | Scott Low                   |
-| 16:30 | 16:55 | Privacy & Chrome        | Michael Kleber              |
-| 16:55 | 17:05 | Break                   |                             |
-| 17:05 | 17:30 | Privacy & Brave         | Pete Snyder                 |
-| 17:30 | 17:55 | Privacy & Safari        | John Wilander               |
-| 17:55 | 18:05 | Break                   |                             |
-| 18:05 | 18:30 | PING & Web Adv BG       | Pete Snyder & Wendy Seltzer |
-| 18:30 | 19:00 | Day 1 wrap-up           | Chairs                      |
-
-### 14 May - Work Items
-
-| Start | End   | Topic         | Discussion Lead |
-| ----- | ----- | ------------- | --------------- |
-| 15:00 | 15:05 | Day 2 kickoff | Chairs          |
-| 15:05 | 15:55 | [Client-Side Storage Partitioning](https://github.com/privacycg/storage-partitioning/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) | Anne van Kesteren |
-| 15:55 | 16:05 | Break   | |
-| 16:05 | 16:55 | [Private Click Measurement](https://github.com/privacycg/private-click-measurement/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) | John Wilander |
-| 16:55 | 17:05 | Break   | |
-| 17:05 | 17:55 | [Storage Access API](https://github.com/privacycg/storage-access/issues?q=is%3Aissue+is%3Aopen+label%3Aagenda%2BF2F) | Theresa O'Connor |
-| 17:55 | 18:05 | Break   | |
-| 18:05 | 19:00 | Conclusions & wrap-up | Chairs |
-
-## Logistics
-
-### When
 
 The meeting will be held on **13–14 May** at **15:00 to 19:00 UTC**. Those times look like this in common time zones:
 
@@ -56,7 +29,67 @@ The meeting will be held on **13–14 May** at **15:00 to 19:00 UTC**. Those tim
 | 16:00 (4 PM) | 20:00 (8 PM) | London |
 | 17:00 (5 PM) | 21:00 (9 PM) | Brussels |
 
-### How
+All times in UTC below.
+
+### Day 1 (13 May)
+
+| Start | End   | Topic                   | Presenter                   | Scribe |
+| ----- | ----- | ----------------------- | --------------------------- | ------ |
+| 15:00 | 15:30 | Welcome                 | Chairs                      | TBD    |
+| 15:30 | 15:55 | Privacy and Firefox     | Steven Englehardt           | TBD    |
+| 15:55 | 16:05 | Break                   |                             |        |
+| 16:05 | 16:30 | Privacy and Edge        | Scott Low                   | TBD    |
+| 16:30 | 16:55 | Privacy and Chrome      | Michael Kleber              | TBD    |
+| 16:55 | 17:05 | Break                   |                             |        |
+| 17:05 | 17:30 | Privacy and Brave       | Pete Snyder                 | TBD    |
+| 17:30 | 17:55 | Privacy and Safari      | John Wilander               | TBD    |
+| 17:55 | 18:05 | Break                   |                             |        |
+| 18:05 | 18:30 | Privacy at the W3C      | Pete Snyder & Wendy Seltzer | TBD    |
+| 18:30 | 19:00 | Day 1 wrap-up           | Chairs                      | TBD    |
+
+### Day 2 (14 May)
+
+| Start | End   | Topic                            | Discussion Lead   | Scribe |
+| ----- | ----- | -------------------------------- | ----------------- | ------ |
+| 15:00 | 15:05 | Day 2 kickoff                    | Chairs            |        |
+| 15:05 | 15:55 | Client-Side Storage Partitioning | Anne van Kesteren | TBD    |
+| 15:55 | 16:05 | Break                            |                   |        |
+| 16:05 | 16:55 | Private Click Measurement        | John Wilander     | TBD    |
+| 16:55 | 17:05 | Break                            |                   |        |
+| 17:05 | 17:55 | Storage Access API               | Theresa O'Connor  | TBD    |
+| 17:55 | 18:05 | Break                            |                   |        |
+| 18:05 | 19:00 | Conclusions                      | Chairs            | TBD    |
+
+## Agenda
+
+Here's the current draft agenda, as of 6 May:
+
+* Day 1 (13 May)
+    * Welcome
+    * Privacy and Firefox
+    * Privacy and Edge
+    * Privacy and Chrome
+    * Privacy and Brave
+    * Privacy and Safari
+    * Privacy at the W3C
+        * Privacy Interest Group
+        * Improving Web Advertising Business Group
+* Day 2 (14 May)
+    * [Client-Side Storage Partitioning](https://github.com/privacycg/storage-partitioning/)
+        * [Fix Web-Platform-Tests](https://github.com/privacycg/storage-partitioning/issues/2/)
+    * [Private Click Measurement](https://github.com/privacycg/private-click-measurement/)
+        * [Select a fraud prevention mechanism](https://github.com/privacycg/private-click-measurement/issues/27)
+        * [Consider defining a modern JS API in addition to the tracking pixel mechanism](https://github.com/privacycg/private-click-measurement/issues/31)
+    * [Storage Access API](https://github.com/privacycg/storage-access/)
+        * [Active or passive storage access after explicit user opt-in](https://github.com/privacycg/storage-access/issues/2)
+        * [Storage Types Covered](https://github.com/privacycg/storage-access/issues/4)
+        * [Consumption of User Gesture](https://github.com/privacycg/storage-access/issues/25)
+        * [Tie state to agent clusters](https://github.com/privacycg/storage-access/pull/29)
+    * Conclusions
+
+Anyone can request that specific issues or PRs be added to the F2F agenda by adding the `agenda+F2F` label to the issue or PR. Here's a list of [every issue and PR that currently has this label](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2BF2F).
+
+## Logistics
 
 As always, we'll use **[this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/ZrkcuhmVbx1OGyWlTX5L0j8T/) for taking minutes**, and we'll use **these Zoom meeting details**:
 
