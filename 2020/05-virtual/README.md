@@ -72,6 +72,7 @@ Here's the current draft agenda, as of 6 May:
     * Privacy and Chrome
     * Privacy and Brave
     * Privacy and Safari
+    * Privacy and Samsung Internet
     * Privacy at the W3C
         * Privacy Interest Group
         * Improving Web Advertising Business Group
