@@ -29,7 +29,7 @@ The meeting will be held on **13–14 May** at **15:00 to 19:00 UTC**. Those tim
 | 16:00 (4 PM)              | 20:00 (8 PM)  | London        |
 | 17:00 (5 PM)              | 21:00 (9 PM)  | Brussels      |
 
-All times in UTC below.
+All times in UTC below. Also, these times are all a bit fuzzy. Some sessions may end late or start early.
 
 ### Day 1 (13 May)
 
