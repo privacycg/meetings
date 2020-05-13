@@ -44,7 +44,7 @@ All times in UTC below. Also, these times are all a bit fuzzy. Some sessions may
 | 17:05 | 17:30 | Privacy and Brave            | Pete Snyder                 | Melanie Richards  |
 | 17:30 | 17:55 | Privacy and Safari           | John Wilander               | Wendy Seltzer     |
 | 17:55 | 18:05 | Break                        |                             |                   |
-| 18:05 | 18:30 | Privacy and Samsung Internet | Laszlo Gombos               | TBD               |
+| 18:05 | 18:30 | Privacy and Samsung Internet | Laszlo Gombos               | Pete Snyder       |
 | 18:30 | 18:55 | Privacy at the W3C           | Pete Snyder & Wendy Seltzer | TBD               |
 | 18:55 | 19:00 | Day 1 wrap-up                | Chairs                      |                   |
 
