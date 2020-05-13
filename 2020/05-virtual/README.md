@@ -59,12 +59,12 @@ All times in UTC below. Also, these times are all a bit fuzzy. Some sessions may
 | ----- | ----- | -------------------------------- | ----------------- | ------ |
 | 15:00 | 15:05 | Day 2 kickoff                    | Chairs            |        |
 | 15:05 | 15:55 | Client-Side Storage Partitioning | Anne van Kesteren | TBD    |
-| 15:55 | 16:05 | Break                            |                   |        |
-| 16:05 | 16:55 | Private Click Measurement        | John Wilander     | TBD    |
-| 16:55 | 17:05 | Break                            |                   |        |
-| 17:05 | 17:55 | Storage Access API               | Theresa O'Connor  | TBD    |
-| 17:55 | 18:05 | Break                            |                   |        |
-| 18:05 | 19:00 | Conclusions                      | Chairs            | TBD    |
+| 15:55 | 16:10 | Break                            |                   |        |
+| 16:10 | 17:00 | Private Click Measurement        | John Wilander     | TBD    |
+| 17:00 | 17:15 | Break                            |                   |        |
+| 17:15 | 18:05 | Storage Access API               | Theresa O'Connor  | TBD    |
+| 18:05 | 18:20 | Break                            |                   |        |
+| 18:20 | 19:00 | Conclusions                      | Chairs            | TBD    |
 
 ## Agenda
 
