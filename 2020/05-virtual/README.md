@@ -33,20 +33,20 @@ All times in UTC below.
 
 ### Day 1 (13 May)
 
-| Start | End   | Topic                        | Presenter                   | Scribe |
-| ----- | ----- | ---------------------------- | --------------------------- | ------ |
-| 15:00 | 15:30 | Welcome                      | Chairs                      | TBD    |
-| 15:30 | 15:55 | Privacy and Firefox          | Steven Englehardt           | TBD    |
-| 15:55 | 16:05 | Break                        |                             |        |
-| 16:05 | 16:30 | Privacy and Microsoft Edge   | Scott Low                   | TBD    |
-| 16:30 | 16:55 | Privacy and Google Chrome    | Michael Kleber              | TBD    |
-| 16:55 | 17:05 | Break                        |                             |        |
-| 17:05 | 17:30 | Privacy and Brave            | Pete Snyder                 | TBD    |
-| 17:30 | 17:55 | Privacy and Safari           | John Wilander               | TBD    |
-| 17:55 | 18:05 | Break                        |                             |        |
-| 18:05 | 18:30 | Privacy and Samsung Internet | Laszlo Gombos               | TBD    |
-| 18:30 | 18:55 | Privacy at the W3C           | Pete Snyder & Wendy Seltzer | TBD    |
-| 18:55 | 19:00 | Day 1 wrap-up                | Chairs                      |        |
+| Start | End   | Topic                        | Presenter                   | Scribe            |
+| ----- | ----- | ---------------------------- | --------------------------- | ----------------- |
+| 15:00 | 15:30 | Welcome                      | Chairs                      | Pete Snyder       |
+| 15:30 | 15:55 | Privacy and Firefox          | Steven Englehardt           | Jeffrey Yaskin    |
+| 15:55 | 16:05 | Break                        |                             |                   |
+| 16:05 | 16:30 | Privacy and Microsoft Edge   | Scott Low                   | Sebastian Zimmeck |
+| 16:30 | 16:55 | Privacy and Google Chrome    | Michael Kleber              | Scott Low         |
+| 16:55 | 17:05 | Break                        |                             |                   |
+| 17:05 | 17:30 | Privacy and Brave            | Pete Snyder                 | Melanie Richards  |
+| 17:30 | 17:55 | Privacy and Safari           | John Wilander               | TBD               |
+| 17:55 | 18:05 | Break                        |                             |                   |
+| 18:05 | 18:30 | Privacy and Samsung Internet | Laszlo Gombos               | TBD               |
+| 18:30 | 18:55 | Privacy at the W3C           | Pete Snyder & Wendy Seltzer | TBD               |
+| 18:55 | 19:00 | Day 1 wrap-up                | Chairs                      |                   |
 
 ### Day 2 (14 May)
 
