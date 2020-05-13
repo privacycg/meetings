@@ -15,7 +15,84 @@ Chairs: Erik, Tanvi, Tess
     * Privacy Interest Group
     * Improving Web Advertising Business Group
 
-## Attendees TBD
+## Attendees
+
+* Allan Spiegel (Adobe)
+* Andrea Marchesini (Mozilla)
+* Andrew Knox (Facebook)
+* Anne van Kesteren (he/him; Mozilla)
+* Arthur Edelstein (Mozilla)
+* Bill Densmore (ITEGA.ORG)
+* Brad Lassey (Google)
+* Brandon Maslen (Microsoft)
+* Charles-Henri Henault (Criteo)
+* Charlie Belmer (DuckDuckGo)
+* Charlie Harrison (Google)
+* Chris Needham (BBC)
+* Chris Needham (BBC)
+* Chris Pedigo (DCN)
+* Christine Desrosiers, independent consultant
+* Christy Harris (Future of Privacy Forum)
+* Clare O'Brien (ISBA)
+* Daniel Appelquist (Samsung)
+* David Benjamin (Google)
+* David Reischer (Permutive)
+* David Senecal (Akamai)
+* Devin Rousso (Apple)
+* Erik Anderson (Microsoft, co-chair)
+* Frederik Wordenskjold (Google)
+* George Fletcher (Verizon Media)
+* Hannes Kuhl (Trakken Web Services)
+* Jack Frankland
+* James Hartig (Admiral)
+* Jeffrey Yasskin (Google Chrome)
+* Joel Odom (Salesforce)
+* Joey Salazar (ARTICLE 19)
+* Johann Hofmann (Mozilla)
+* John Wilander (Apple WebKit)
+* Jullian Bellino (Criteo)
+* Kate Cheney (Apple)
+* Kaustubha Govind (Google)
+* Konrad Dzwinel (DuckDuckGo)
+* Kris Chapman (Salesforce)
+* Krzysztof Modras (Cliqz)
+* Kushal Dave (Scroll)
+* Laszlo Gombos (Samsung)
+* Lisa LeVasseur (Me2B Alliance)
+* Lucas Adamski
+* Lukasz Olejnik (independent researcher)
+* Maciej Stachowiak (Apple)
+* Mark Xue (Apple) 
+* Marshall Vale (Google)
+* Melanie Richards (Microsoft)
+* Michael Kleber (Google)
+* Mike O'Neill (Baycloud Systems)
+* Naïma Conton (Sirdata)
+* Nick Doty (Berkeley)
+* Nicolas Arciniega (Microsoft)
+* Paul Jensen (Google)
+* Peter Saint-Andre (Mozilla)
+* Peter Snyder (Brave)
+* Pranjal Jumde (Brave)
+* Russ Hamilton (Google)
+* Sam Macbeth (Cliqz)
+* Sam Weiler (W3C/MIT)
+* Sarah Cometa (Permutive)
+* Scott Low (Microsoft)
+* Sebastian Zimmeck (Wesleyan University)
+* Shaun Gilmore (Apple)
+* Shivan Sahib (Salesforce)
+* Shivani Sharma (Google)
+* Shuran Huang (Google)
+* Steven Englehardt (Mozilla)
+* Tanvi Vyas (Mozilla, co-chair)
+* Theresa O'Connor (Apple)
+* Thibault Montanier (Sirdata)
+* Thomas Steiner (Google)
+* Tom Lowenthal (Brave)
+* Walz (Google)
+* Wendell Baker (Verizon Media)
+* Wendy Seltzer (W3C)
 
 ## Introductions
 
@@ -39,6 +116,14 @@ Scribe: Peter Snyder
 * …: there is a PrivacyCG org on GitHub that folks should be members of, so that you can add labels, etc.
 * …: If you're not currently a member, please message someone from PrivacyCG to be added.
 * Wendy S: W3C mostly uses IRC; some groups experimenting with Slack.
+
+## How to join the Privacy CG
+
+1. Get a (free) W3C account at https://www.w3.org/accounts/request.
+2. Log into https://www.w3.org/community/privacycg/join with your W3C account.
+3. Click "join".
+4. (Sometimes) Wait for your organization to approve your request.
+5. Email group-privacycg-chairs@w3.org with your GitHub username so that we can invite you to Slack and our GitHub organization
 
 ## Privacy and Mozilla Firefox
 
@@ -114,14 +199,6 @@ Partitioned storage allows a malicious actor to store an identifier in their thi
 David Senecal: I work for a web security vendor, providing anti-fraud, bug detection. We're bound to follow certain regulations like GDPR. Forces us to collect certain data and store it, and dispose of it. I see a problem that the privacy features start to impact the quality of fraud detection and bug detection. Makes the web more private but maybe less secure. Restricting data collection makes it hard to detect htat an account has been stolen. How can browser vendors and security vendors work together so that the browser vendor can recognize that the security vendor is using data responsibly, so the security vendor can still do their job?
 
 Erik: That's a very general problem statement, and one worth more discussion in this group, but we're cutting into the break time, so please continue that discussion over Slack and in the [proposals repository](https://github.com/privacycg/proposals).
-
-## How to join the Privacy CG
-
-1. Get a (free) W3C account at https://www.w3.org/accounts/request.
-2. Log into https://www.w3.org/community/privacycg/join with your W3C account.
-3. Click "join".
-4. (Sometimes) Wait for your organization to approve your request.
-
 
 ## Privacy and Microsoft Edge
 
@@ -374,3 +451,151 @@ Bonus question from Maciej: Google folks, do you intend to bring things to Priva
 Brad: Trust tokens is currently in WICG. Happy to discuss further here if people want. 
 
 Tanvi: If someone wants to request an ad-hoc 1/2 hr meeting, just ask.
+
+## Privacy and Samsung Internet
+
+Speaker: Laszlo Gombos
+
+Scribe: Pete Snyder
+
+### Presentation ([slides](https://docs.google.com/presentation/d/1urhi2Wd0OPkknppqznQuQjBESf3SFwCmq4R8gVA_eKQ))
+
+Laszlo: Samsung browser is mostly for android devices, targeting Samsung galaxy, but also supports other devices
+chromium based, with privacy enhancements.  Privacy is one of the reasons S built a browser.
+What is privacy? to give users control and transparaecny. Includes DuckDuckGo and Quant as search engines.
+Browser includes options to clear storage / data, but category.  Also option to toggle cookies.
+
+Browser timeline
+ - 2016: add content blocker using Safari API, list based.
+ - 2016: add "secret mode", similar to private browsing, but covers the entire application (instead of one tab).  Requires auth, and gives differnt default settings
+ - 2017: add tracking blocker, w/ disconnect list
+ - 2019: tried to improve tracking list through ML (i.e. smart anti tracking, SAT).  ML results are augmented by static lists.  Whole feature is opt in
+ - 2020: changes to referrer policy, improve compat with logins.  Feature is still opt-in (and can be either global or only for secret mode).  Also advertised with onboarding / first use
+ 
+Future plans:
+ - better privacy mode, between SAT and current default.  Want this new method to be default on, web compat focused
+ - add extension API; working on ways to do this in a privacy preserving way
+ - excited about Storage Access API, hoping to ship
+ - looking for other ways of allowing sites to monitize, w/o tracking
+ 
+
+### Q&A
+
+Tanvi: With SAT v2 (giving storage access on heuristic basis), is that in chromium source?  Upstream?
+Laszlo: downstream currently.  But interested in sharing if others are interested
+
+npdoty: thanks for discussing extensions; what kinds of privacy threats are you seeing / interested in?
+Laszlo: its a defacto standard. Samsung tries to preserve the current API, but the current APIs expose page content to the extension; a problem!  Current approach is to handpick / allow list which extensions are installable, though scaling problems
+
+npdoty: do you have any solutions in mind
+Laszlo: just curuation currently, but may try to reduce APIs going forward
+
+Tanvi: re Storage Access API heuristics, what are the heuristics?
+Laszlo: User engagement (if the user has interacted with the domain)
+
+Tanvi: So not relevant to frame?  Just any interaction in any context?
+Laszlo: yes
+
+Tanvi: Do you think mobile browsers bring different expectations than desktop browsers? e.g. anti-tracking, diff per platform?
+Laszlo: We treat them similarly, and know that mobile browser can be used similarly to desktop browsers.  We don't see a fundamental difference
+
+## Privacy at the W3C
+
+Speaker: Pete Snyder and Wendy Seltzer
+
+Scribe: Michael Kleber
+
+### Presentations: Privacy Interest Group (PING) & Improving  Web Advertising BG
+
+#### PING ([slides](https://www.peteresnyder.com/static/slides/2020-privacycg-f2f-ping.pdf))
+
+Pete Snyder (Brave): Privacy Interest Group (PING)
+
+* PING's main role: to review other peoples' specs, find issues that need to be addressd to preserve privacy platform, specs that are coming out of WGs and IGs, often at transition points
+* Things we find may be brought up as PING, or as individuals, or as some combination
+* Documenting known privacy conerns, which might make their way into non-normative text
+* Discussions with WGs, either in github or in phone calls, to figure out conerns and best ways to deal with them
+* File issues on github for what we find
+* Not very often: file objectios to specs going forwards, escalate
+* Issues are filed in the owner's repo and a tracking issue in PING's repo
+ * (process changing over time though)
+* Also try to document best practices, to give guidance to groups and share PING's expertise, to smooth everyone's experience and so they know what to expect
+ * Questionnaire on privacy, akin to the security questionnaire
+ * Fingerprinting guidance doc
+ * Blog post about patterns in standards that are privacy concerns
+ * In progress: Privacy Threat Model
+* Privacy Threat Model
+ * Under development, led by Jeffrey Yasskin
+ * Define the important boundaries that should exist on the web to make it respecting of privacy
+ * What is in scope, what is out of scope
+ * Hope to reduce conflict over privacy issues
+ * Keep one spec from un-doing protections we're trying to provide elsewhere
+ * Welcome more authors and more involvement
+* We're eager for more people to become involved.
+
+
+#### Improving Web Advertising Business Group
+([slides: Web Advertising BG and W3C](https://docs.google.com/presentation/d/1maebmIa6dmAj7-7MaB2QukKJd_k4UrUZhFLiA4i67lE/))
+
+Wendy Seltzer (W3C): Improving Web Advertising Business Group
+
+* Wendy: W3C strategy lead, looking at gaps in the platform and where the w3c needs to bring in new communities
+* W3C welcomes you!  It is a _voluntary consensus standards organization_, looking for cooperative solutions that everyone chooses to agree to
+* Standards work well for a shared techcnical problem, a "good enough" technical solution that you all come up with, and ecosystem commitment to ship it.
+* Web Ecosystem has many participants -- people, publishers, advertisers, web browsers, tech
+* Want to meet user expectations of the privacy of the web
+* Web Advertising Business Group goals: Stop individually-identified cross-site tracking, and provide monetization techniques to support the open web
+ * Business group's goals include developing a list of the business use cases that we can try to support — see "Table of support for advertising use cases" https://github.com/w3c/web-advertising/blob/master/support_for_advertising_use_cases.md
+ * What new APIs and designs can we add, as tracking goes away because browsers decide to not support it any more
+* In the W3C process, Business Groups are not spec-producing
+ * Produce business requirements, use cases
+ * send those requirements and use cases on to:
+  * Working Groups that can produce Recommendations
+  * Interest Groups and Community Groups, that can incubate, including this one
+  * External groups, including WHATWG, IETF, IAB Tech Lab, etc., depending on who is in the best position to build specifications and consensus around solutions
+
+
+### Q&A (on both PING and Web Adv)
+
+John Wilander: I've attended a few web-adv meetings, and I know rules differ from group to group.  I've gotten the feeling that things rarely leave the business group — some tech news publications have printed leaked stuff from the BG, but things are not supposed to be attributed
+Wendy: Discussions are supposed to be a members-only space, but most of the material produced is in publicly-visible github repositories, and we encourage people to engage that way.  Other than meeting minutes being treated more confidentially, we do want open communication.  I'll take your input to push in that direction.
+
+Maciej: You mentioned that BGs don't produce specifications, instead produce use cases.  How do you square that with Google's use of the BG to develop things like the ad work they've talked about there
+
+Wendy: We're not producing specs, we're discussing proposals to understand what a solution would address if it were made a spec.  Does it serve the needs?  If Google were to move something towards being a spec, it would move elsewhere
+
+Brad Lassey: That's exactly the same as a community group like this one, where things can be incubated but not specified
+
+Maciej: Are BG's supposed to be doing the same things CGs are?  Some outcomes are not specs, but are things that look spec-like, to be taken up by WG's that do produce specs
+
+Wendy: When there's work on a proposal, it happens in either a community group or a working group
+
+TomL: This certainly leads to confusion among people less familiar with w3c process flow and nomenclature
+
+Nick: Great to see these two together.  How would we resolve differences between the two processes?  What if web-adv BG comes up with use cases that conflict with the PING threat model?  Sounds like web-adv has one principle shared with PING (no cross-site user tracking), but will that be updated over time?
+
+Wendy: As new threats & concerns are added, we want to bring that to the overall picture of what's going to be overall acceptable on the platform.  Web-adv BG's goal is a privacy-preserving platform that has opportunities for monetization, but not willing to compromise privacy in order to get there, which we're hearing from implementers as well.
+
+Pete: From PING side, we would treat it like anything else: We raise concerns on specs if we think they are going in a problematic direction, and we're happy to give that feedback at earlier stages before spec process too.  We have lots of options, including formal objections
+
+Wilander: At TPAC we had several conversations about where to go, for targeting ads in a more privacy-friendly way among other things.  Those conversations are happening _only_ in the web-adv BG.  Question that should be addressed early-on include "is there multi-vendor support for on-device targeting at all?"  It's kind of one-sided if this is only discussed in web-adv, and not as a platform-wide "should we do this at all?" thing.
+
+Wendy: We are hearing the use cases, and I'd encourage folks to come and participate in the web advertising group to share the perspective on what proposals would be of interest to multiple parties.  Ultimately w3c is about platform-level standards and what can get implementation across the platform.  We want privacy to be met by standards.  This is early-level discussion, and if one party is interested in considering things that would meet some of the needs, we're interested in letting everyone see what the trade-offs would be.  This is where we can find whether there is interest in finding something to standardize.
+
+Kris Chapman: In the ad tech ecosystem, they are much more likely to find the web-advertising business group, because from their perspective they don't think of these topics as _privacy_ features, they see them as business questions.  I'm in both, and I see more ad-tech and mar-tech folks showing up in the BG, hoping to find the browsers there, don't think/know that they should come to privacy groups, want a one-stop shop.
+
+Tess: For Pete & Wendy: Privacy CG is new, this is our first face-to-face, still figuring out how to get better at what we want to do.  Any suggestions for what we could be doing now, to work better on topics of mutual interest?
+
+Pete: PING vs PrivacyCG has nicely aprtitioned the space, and we have a lot of membership overlap.  It's particularly useful to PING to knwo where Privacy CG are planning new features, so that other specs (where we do horizontal review) don't fight against that.
+
+Wendy: W3C sends resources to groups to help them understand how to participate in the standards process.  We can send them and their proposals to this group when at the right stage to move towards incubation.  Let's keep working together to not duplicate discussions, but keep them moving forward
+
+Maciej: Wendy, what's your recommendation for folks interested in the discussions about the proposals in the web-adv BG but are not comfortable with its secrecy rules?  Almost everything else is in the open; keeping discussions secret is uncomfortable for us.
+
+Wendy: Most discussion is happening in public, in github repos and the public mailing list, so participating in those should be available.  I agree that at the point it comes to spec development, it should move to a forum that's fully public.  If people want a space to talk about how to phrase our concerns so that they can go into a public forum, I don't mind hosting such a space
+
+Wilander: Re. Kris: I agree that a lot of people have found the web-adv BG and are using it as the interface with the browsers, and I'm worried that it is not that kind of a group, and we're misleading people into thinking they're in a forum with multi-browser interest, but really it's not.  I think it would be beneficial to open the group up, to get other browsers into the discussion, and we know that if we reach consensus, it will have multi-browser support.
+
+Wendell Baker: Verizon's Perspective on web-adv BG (but has been sitting on privacy CG also): We want to understand what the next web platform is going to be about, and if possible contribute to that.  I see Wilander worried that people are misled into thinking it's the right venue to talk to the browsers, and the fact that browser vendors are there does give that impression.  We just want to know what the future will look like.  From the perspective of someone in commerce, the idea that there is a privacy sense isn't the key value — we all want it to be safe to click on links, we want a web that's safe, but also one where we don't need to rebuild things every few years because the get broken.  We want to know what we can build on that will remain reliable, what we can sell on in the future.  I know a lot of work is supposed to be open, but it's very troubling when I'm in a meeting, there are articles about it in the trade press the next day, and I was there and the reporter wasn't there and the report is wrong.  So there definitely is benefit to having a private venue for these conversations, though if that's a blocker for getting more participation, maybe we could give some of that up.
+
+Kris: +1 (from slack)
