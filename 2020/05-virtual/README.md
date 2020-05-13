@@ -42,7 +42,7 @@ All times in UTC below.
 | 16:30 | 16:55 | Privacy and Google Chrome    | Michael Kleber              | Scott Low         |
 | 16:55 | 17:05 | Break                        |                             |                   |
 | 17:05 | 17:30 | Privacy and Brave            | Pete Snyder                 | Melanie Richards  |
-| 17:30 | 17:55 | Privacy and Safari           | John Wilander               | TBD               |
+| 17:30 | 17:55 | Privacy and Safari           | John Wilander               | Wendy Seltzer     |
 | 17:55 | 18:05 | Break                        |                             |                   |
 | 18:05 | 18:30 | Privacy and Samsung Internet | Laszlo Gombos               | TBD               |
 | 18:30 | 18:55 | Privacy at the W3C           | Pete Snyder & Wendy Seltzer | TBD               |
