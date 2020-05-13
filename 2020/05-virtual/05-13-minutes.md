@@ -262,3 +262,115 @@ Michael Kleber
   
 - John: Regarding the two year plan, I'm wondering about what you believe the 3P cookie deprecation will look like in terms of adoption and when the web ecosystem will be ready. It sounds like you're going to ship a bunch of replacements and then gradually remove the privacy-infringing replacements. I won't be surprised if staying with the old techniques will be more profitable.
   - Michael: I would say first of all, that I regret calling Privacy Sandbox Privacy Sandbox because there's not one single API. It's a collection of APIs that we'll turn on one at a time as they become available. Things will be coming online (first one in M84) so that folks can experiment throughout 2021 while they continue making money with 3P cookies. We want to give a long runway so that folks can give us feedback so that by the time we get to the time when we believe that use cases have been met, we've had lots of opportunity for the ecosystem to talk to us and no one is surprised. Yes, I'm sure there will be people who cling to the old way as much as possible, but anyone who is surprised by the old way at that point will be because they have deliberately not been paying attention.
+
+## Privacy and Brave
+
+Speaker: Pete Snyder
+
+Scribe: Melanie Richards
+
+### Presentation
+
+* Will talk about what Brave deploys right now, and two places where we're doing privacy protections in different ways than eeryone else, and longer term ideas.
+* Going on in Brave right now....
+* Shields analogy, contains a bunch of params. We ship a bunch of blocklists on by default. EasyList/EasyPrivacy, Disconnect, uBlock Origin...not just the filter lists that come with that but also replacement scripts. So instead of blocking a tracking lib, replacing it. Scripts we inject in pages to block nasty parts we can't replace. Also Fanboy Notifications for blocking annoying popups
+* [adblock-rust](https://github.com/brave/adblock-rust).
+* We run SlimList on iOS, shipping just the most important rules there, with opt-in for additional
+* HTTPS Upgrades, exactly what HTTPSEverywhere does, looking at another implementation, upgrade where useful
+* Cookie policy: by default block 3p, don't send cookies to 3p origins. Cap JS cookies to 7 days, most useful in 1p context. Follow what Safari pioneered. Relative to eTLD+1 of top frame
+* Also in Shields: fingerprinting
+* Not direct Shields toggles but also controlled: cross-site request...
+* Shields grab bag...running experiments over the summer. Exceptions to all these things: cookies, referrer, fingerprinting, filter lsit exceptions, github.com/brave/*
+* Fingerprinting protections: transition period right now, only apply protections in 3p frames. All those protections w/ small exception, basically disable APIs. Standard privacy through generalization. Moving to a different system, shipped some of this stuff, under active development. Call this farbling: minor rand. to confuse fingerprinters. "anonymization thru generalization does not sufficiently protect anonmity." So much diversity, if we try to fight by making everyone look the same, that's a fool's errand.
+* Instead of everyone generating same fingerprint, have everyone generate diff. fingerprint each session.
+* Our goal: sidestep web compat concerns if we're returning ran values. Generate session seed, mix that with eTLD+1, generate unguessable seed for top-level domains, randomize for that seed. Random values for each session...3p frames embedded in 1p context all use the same seed, preventing new tracking if each frame got their own seed.
+* Under active development: move everything to farbling, 3 different levels of config. Off (do Chromium), default: alter returned values with noise, make sure different on each query. Goals: confuse fingerprinters, expect that for at least some, susceptible to some statistical attacks. Want to drive wedge between benign and [nefarious] use.
+* Last we have max setting, don't return underlying values, pure random, prevent statistical attacks.
+* How we're doing farbling for canvas: readback APIs, that's usually what gets addressed in fingerprinting libs. Flip low-order bits deterministically based on session seed. If someone wants strongest possible, we return random-looking white noise derived from seed. In places where you get different responses (like Boolean), difficult to do this noise, leave it alone.
+* For web audio, generate random noise from seed.
+* Shortlist of additional APIs for farbling: (listed on Github, issue #8787)
+* Where we're going slightly different direction from others is storage. Limit cookie lifetimes set by JS, don't allow storage in 3p frames, (eLTD+1 frames do get storage)..we have short exception list for domains. Most of that is equivalence domains, one company owning two domains etc.
+* In short term (day to week), fixing a quirk to Chromium process, if you try to do introspection into storage, throws an exception.
+* Medium-term goals, give 3p frames frame lifetime storage.
+* Longer term, places we know we need exceptions, using Storage Access API as escape valve
+* Things longer down the line, not sure, experimenting: garbage collecting JS storage, known script tuples we can block in 1p. Impose interventions.
+* Other longer term research projects: concerned about cross 1p tracking via link decoration. Want to build out protections programmatically. Project to generate privacy-preserving resource replacements. Also want to farble additional endpoints almost inevitably. Last, don't have good deployed answer to font fingerprinting, working with W3C and internally on what we can ship in web-compat-friendly way.
+
+### Q&A
+
+* Scott Low: super informative, love the work. Curious if you've seen any known compat issues arise in Nightly around fingerprint randomization? How have you been able to measure? Are signals looking pretty good?
+* Pete: almost across the board, dramatically better. Because currently deleting APIs, mostly fine but may break stuff...one exception w/ web compat issues, drawing application where it's almost impossible to, the modifications are so subtle, applied at readback, those use cases are going to be modified if you play with those APIs enough. Take it as a known issue, not sure what to do with it. But long tail...main message is, almost completely web compat win for us.
+* Steven Englehardt: thanks Pete, appreciate innovative stuff. Thanks for the work. How do you handle and discover and handle site breakage? You have an aggressive default set of protections deployed. We did a study trying to turn on 3p cookie blocking, we lost 1% of users from that study in a week (back in ~Dec 2018), so we know they were hitting breakage.
+* Pete: people using Nightly have been terrific in filing issues, of course not scalable. Also use Page Graph system, very hi fi recording of interactions on a page, use that to build a classifier of issues...up to 75% accuracy, not there yet as first line of defense but hopeful...difference in resource requests, mostly an aid in labeling web compat things. Other channels where we work with partners on web compat things.
+* James Hartig: curious how a site that operates in 3p iframe might detect that cookies are blocked or how that works in practice. Can cookies be set and immediately thrown away? Exception thrown?
+* Pete: you write something to document.cookie, nothing gets record, and if you try to read localstorage, exception thrown. All the upstream stuff. Not really ideal, but point developers to these signals.
+* Maciej Stachowiak: interested in the noise-based fingerprinting stuff and how it's working out. Seems like a cool approach, I've always wondered whether noise could be added at low enough threshold to not break things. Any math analysis to whether this noise is robust to tricks for removing it? There are some obvious ways to back out the noise, have you done deeper analysis.
+* Pete: thanks for the feedback on Twitter, super appreciate it. It terms of robustness of attacks...we expect at least some of these will be addressable, special-caseable etc. Goal is to confuse naive fingerprinters, wedge between benign and malicious. For version 2, responding to issues you raised. Defeatable through 100s of 1000s of queries, but someone doing that many canvas readbacks w/o user activation: pretty strong signal to lay a hammer down on. Haven't done mathematical modeling across the entire platform for privacy benefits, but we're confident most not reversable and others would look suspicious.
+* John Wilander: question on standardization on anti-fingerprinting measures. Do you expect we could standardize, or an optional in the spec about UA introducing noise?
+* Pete: early days, haven't pushed for anything to be standardized. Mostly raising issues on what we're modifying, let's consider addressing this, if WG wants to standardize randomization, great. Not married to solution, more want to make sure it's got legs right now.
+
+## Privacy and Safari
+
+Speaker: John Wilander
+
+Scribe: Wendy Seltzer. 
+
+Presentation: [add link later]
+
+### Presentation
+
+John Wilander: Webkit team at Apple. Privacy and Safari
+* Privacy is about people. Consumers, customers, users. 
+* It should be safe to click a link. Not just security, privacy included. Bad things shouldn't happen by linking.
+* Threats, policy, implementation, future.
+* Threats: 
+ * to protect identity (not just PII); browsing activity; personal characteristics, e.g. behavior; autonomy, being free from manipulation. Affects our view of APIs: can the user be tricked or harassed into something?
+ * attacks: who could be an attacker. ad tech, data sellers, political operatives, even browser vendors; 
+ * attacks: how: client-side state, fingerprinting, collusion, grabbing stable identifiers
+ * attacks: why: financial benefit, political influence
+* Policy. https://webkit.org/tracking-prevention-policy
+  * Prevent all covert tracking and cross-site tracking. Stateful tracking e.g. HSTS supercookies; fingerprinting; any hidden data-storage w/o user control
+  * Limit capabilities if we cannot prevent. 
+  * if we can't limit, ask for user consent. see Storage Access API
+   * no exceptions. no blocklists. As stated in our policy, same rules for all, don't enable circumvention by new domain; but we'll apply specific rules if we see bad actors
+* Implementation timeline
+ * 2003 - Safari 1.0 blocks 3rd-party cookies
+ * 2005 - Safari 2.0 offers private mode
+ * 2010 - Rise of social media
+ * 2011 - Do not track
+ * 2013 - Partition 3rd-party caches and DBs
+   * rise of ad-blockers, history leakage, retargeted ads, microtargeted malicious content,
+ * 2017 - ITP (Intelligent Tracking Prevention)
+ * 2018 - Storage Acess API
+ * 2019 - Private Click Measurement - still in standards process
+* Stateful tracking defense. 
+* Fingerprinting defense. 3-pronged approach
+ * Don't implement fingerprintable features, those that reveal hw-specific things, custom installs. can revisit if we can protect them.
+ * Remove entropy, e.g. fonts, DNT, software update
+ * Alter features to add protection: require user permission to access device orientation or motion; prevent fingerprinting of cameras and mics when using WebRTCV
+* Future
+  * Storage Access API 
+  * Private click measurement
+  * IsLoggedIn. disentangle logins from cookies. 
+
+### Q&A
+
+Sebastian: Thanks. re disentangling login from cookies, can you explain more? As I understand, most logins use session cookies. 
+
+John: The [isLoggedIn proposal](https://github.com/WebKit/explainers/tree/master/IsLoggedIn) is in the webkit repo. Not that cookies have to stop being used for login, though we'd be happy to see e.g. HTTP state tokens. We're interested in the binary state of is user/site logged in, to know to treat it differently, stay logged in if the user wants, and if not logged in, don't persist data. 
+
+Zach Edwards: you said one of the reason for creating these controls is bad content, such as ads foll; how does Apple determine what is good content? 
+
+John: Don't think it's based on Apple's determination of what's good content. Concern that high-value content loses, story from Walt Moskowitz recode.net; advertisers only needed to run ads briefly on recode.net, get the id, and then retarget those users elsewhere where ad inventory is cheaper. 
+
+Lukasz: Don't implement fingerprintable features. Any specific features you didn't implement? 
+
+John: lots of factors go into what features we implement: performance, priorities. fingerprinting plays a role. Battery status, bluetooth, reading sensor data, connecting a peripheral. 
+
+## Question re: Trust Tokens
+
+Bonus question from Maciej: Google folks, do you intend to bring things to PrivacyCG. Curious about trust tokens, which seems an interesting building block. 
+
+Brad: Trust tokens is currently in WICG. Happy to discuss further here if people want. 
+
+Tanvi: If someone wants to request an ad-hoc 1/2 hr meeting, just ask.
