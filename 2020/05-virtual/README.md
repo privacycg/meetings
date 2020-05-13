@@ -12,6 +12,7 @@ We had hoped to have an in-person meeting, but current global situation and in l
   - [Day 1 (13 May)](#day-1-13-may)
   - [Day 2 (14 May)](#day-2-14-may)
 - [Agenda](#agenda)
+- [Minutes](#minutes)
 - [Logistics](#logistics)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -33,6 +34,8 @@ All times in UTC below. Also, these times are all a bit fuzzy. Some sessions may
 
 ### Day 1 (13 May)
 
+[Minutes](05-13-minutes.md)
+
 | Start | End   | Topic                        | Presenter                   | Scribe            |
 | ----- | ----- | ---------------------------- | --------------------------- | ----------------- |
 | 15:00 | 15:30 | Welcome                      | Chairs                      | Pete Snyder       |
@@ -49,6 +52,8 @@ All times in UTC below. Also, these times are all a bit fuzzy. Some sessions may
 | 18:55 | 19:00 | Day 1 wrap-up                | Chairs                      |                   |
 
 ### Day 2 (14 May)
+
+[Minutes](05-14-minutes.md)
 
 | Start | End   | Topic                            | Discussion Lead   | Scribe |
 | ----- | ----- | -------------------------------- | ----------------- | ------ |
@@ -92,6 +97,10 @@ Here's the current draft agenda, as of 6 May:
     * Conclusions
 
 Anyone can request that specific issues or PRs be added to the F2F agenda by adding the `agenda+F2F` label to the issue or PR. Here's a list of [every issue and PR that currently has this label](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2BF2F).
+
+## Minutes
+
+Minutes from [day 1](05-13-minutes.md) and [day 2](05-14-minutes.md) are or will be available here.
 
 ## Logistics
 
