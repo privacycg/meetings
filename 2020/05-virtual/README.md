@@ -78,6 +78,8 @@ Here's the current draft agenda, as of 6 May:
         * Improving Web Advertising Business Group
 * Day 2 (14 May)
     * [Client-Side Storage Partitioning](https://github.com/privacycg/storage-partitioning/)
+        * [What state should be blocked?](https://github.com/privacycg/storage-partitioning/issues/8)
+        * [What state should be able to have its keying relaxed?](https://github.com/privacycg/storage-partitioning/issues/7)
         * [Fix Web-Platform-Tests](https://github.com/privacycg/storage-partitioning/issues/2/)
     * [Private Click Measurement](https://github.com/privacycg/private-click-measurement/)
         * [Select a fraud prevention mechanism](https://github.com/privacycg/private-click-measurement/issues/27)
@@ -87,7 +89,6 @@ Here's the current draft agenda, as of 6 May:
         * [Active or passive storage access after explicit user opt-in](https://github.com/privacycg/storage-access/issues/2)
         * [Storage Types Covered](https://github.com/privacycg/storage-access/issues/4)
         * [Consumption of User Gesture](https://github.com/privacycg/storage-access/issues/25)
-        * [Tie state to agent clusters](https://github.com/privacycg/storage-access/pull/29)
     * Conclusions
 
 Anyone can request that specific issues or PRs be added to the F2F agenda by adding the `agenda+F2F` label to the issue or PR. Here's a list of [every issue and PR that currently has this label](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2BF2F).
