@@ -6,12 +6,12 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 
 | Time         | Day    | Location      |
 | ------------ | ------ | ------------- |
-| 01:00        | 29 Fri | Tokyo         |
-| 02:00        | 29 Fri | Sydney        |
-| 09:00        | 28 Thu | San Francisco |
-| 12:00 (noon) | 28 Thu | Boston        |
-| 17:00 (5 PM) | 28 Thu | London        |
-| 18:00 (6 PM) | 28 Thu | Brussels      |
+| 01:00        | 12 Fri | Tokyo         |
+| 02:00        | 12 Fri | Sydney        |
+| 09:00        | 11 Thu | San Francisco |
+| 12:00 (noon) | 11 Thu | Boston        |
+| 17:00 (5 PM) | 11 Thu | London        |
+| 18:00 (6 PM) | 11 Thu | Brussels      |
 
 * We are using [Zoom](https://mozilla.zoom.us/j/769153986) for the meeting.
     * See the end of this agenda for dial-in options.
@@ -19,8 +19,12 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 
 ## Agenda
 * Face to Face Recap
-* Proposals
+* Proposals:
+    * [Prevent Service Worker as Cross-Site Proxy](https://github.com/privacycg/proposals/issues/15)
+    * [The IsLoggedIn API](https://github.com/privacycg/proposals/issues/16)
+    * [First Party Sets](https://github.com/privacycg/proposals/issues/17)
 * Work Items
+    * Storage Access API - [Promptless storage access with constrained communication capabilities](https://github.com/privacycg/storage-access/issues/41)
 * Any other business
 
 ## Dial-in details
