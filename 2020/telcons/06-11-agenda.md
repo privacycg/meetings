@@ -23,6 +23,7 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
     * [Prevent Service Worker as Cross-Site Proxy](https://github.com/privacycg/proposals/issues/15)
     * [The IsLoggedIn API](https://github.com/privacycg/proposals/issues/16)
     * [First Party Sets](https://github.com/privacycg/proposals/issues/17)
+    * [Implementing privacy rights](https://github.com/privacycg/proposals/issues/10)
 * Work Items
     * Storage Access API - [Promptless storage access with constrained communication capabilities](https://github.com/privacycg/storage-access/issues/41)
 * Any other business
