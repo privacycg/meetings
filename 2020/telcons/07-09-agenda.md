@@ -1,4 +1,4 @@
-# 6 July 2020
+# 9 July 2020
 
 ## Logistics
 
