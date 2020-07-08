@@ -29,6 +29,7 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 * Proposals
   * [Top-Frame lifetime, partitioned storage for embedded frames](https://github.com/privacycg/proposals/issues/18) - Pete
 * Any other business
+  * WebAppSec's next meeting is on 21 July - Dan Veditz
 
 ## Dial-in details
 
