@@ -12,7 +12,7 @@ noon Boston time (EDT). That translates to
 | 17:00 (5 PM) | Thu | London |
 | 18:00 (6 PM) | Thu | Brussels |
 
-We use [this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/ZrkcuhmVbx1OGyWlTX5L0j8T/) for taking minutes.
+We use [this Google Doc](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit#) for taking minutes.
 
 ## Join Zoom Meeting
 * Meeting ID: 769 153 986
@@ -53,6 +53,7 @@ We use [this Cryptpad](https://cryptpad.w3ctag.org/code/#/2/code/edit/ZrkcuhmVbx
 
 ## Useful links for chairs when creating agendas
 
+* [Google Docs add-on for converting to Markdown](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607)
 * [everything labeled agenda+ across our org](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2B&unscoped_q=label%3Aagenda%2B)
 * [all open issues across our org](https://github.com/search?q=org%3Aprivacycg+is%3Aissue+is%3Aopen)
 * [all open PRs across our org](https://github.com/search?q=org%3Aprivacycg+is%3Apr+is%3Aopen)
