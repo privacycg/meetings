@@ -202,7 +202,7 @@ Erik: That's a very general problem statement, and one worth more discussion in 
 
 ## Privacy and Microsoft Edge
 
-Speaker: Scott Low and Melanie Richards
+Speaker: Scott Low and Melanie Richards - [Slides](https://github.com/scottlow/PrivacyCG-F2F/blob/master/2020.05.08%20Privacy%20CG%20F2F.pdf)
 
 Scribe: Sebastian Zimmeck
 
