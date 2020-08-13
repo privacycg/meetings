@@ -5,10 +5,10 @@
 
 
 <b>Administrative</b>
-* Announcing First Party Sets as a Work Item
-* Announcing IsLoggedIn as a Work Item
+* [Announcing First Party Sets as a Work Item](https://github.com/privacycg/admin/issues/17)
+* [Announcing IsLoggedIn as a Work Item](https://github.com/privacycg/admin/issues/18)
    * That means we now have five work items — full plate!
-* Virtual Face-to-Face for TPAC
+* [Virtual Face-to-Face for TPAC](https://github.com/privacycg/meetings/issues/8)
    * Wednesday/Thursday September 16th and 17th
       * Groups will meet sometime around TPAC meeting time
       * Doodle sent last week to ask for time preferences:
@@ -20,7 +20,7 @@
    * Label items agenda+f2f if they want to discuss them
 
 <b>Work Items</b>
-* First Party Sets - Kaustubha Govind (Google Chrome), David Benjamin
+* [First Party Sets](https://github.com/privacycg/first-party-sets) - Kaustubha Govind (Google Chrome), David Benjamin
    * FPS Motivation and Overview
       * Web evolved over time; originally most sites were primarily single-domain, but as things evolved, lots of sites are composable, including domains that want to remain distinct for security reasons (e.g. uploadable content)
       * Lots of companies also use multiple domains for business purposes, or for per-country top-level domains for performance
@@ -36,8 +36,8 @@
          * A: Link decoration mitigations, trimming URL parameters, auth tokens
          * Q: Lisa LeVasseur: It's odd to not talk about privacy in the context of people — they are the object of privacy.  Would encourage attention to the user
          * A: This is a key part of the policy: What is an acceptable first party set?  All about user expectations and understanding.  Surfacing in browser UI, etc, are ways for users to understand what's happening
-         * Lisa: IEEE-7012 working group —  working on machine-readable user-proffered privacy terms, to give UAs attention
-            * Also this work to align or ground the idea of Privacy Boundaries  into human behavior
+         * Lisa: [IEEE-7012](https://sagroups.ieee.org/7012/) working group —  working on machine-readable user-proffered privacy terms, to give UAs attention
+            * Also [this work](https://en.wikipedia.org/wiki/Communication_privacy_management_theory) to align or ground the idea of Privacy Boundaries  into human behavior
    * Questions for open discussion:
       * Need for a solution to define multi-domain sites’ “privacy boundary”
          * Kris Chapman: I agree that there is a need for a solution — absent this, push for companies to use the same domain, which obscures for users the different parties.  Want to avoid multiple prompts for permissions, etc.
@@ -69,7 +69,7 @@
          * John Sabella: How do you see sites moving in/out of a set?  Process to apply for it, or more fluid?
          * Kaustubha: Initially a process, need to rethink if it needs to scale up.  In TLS world there is a way the process has been automated, used by LetsEncrypt.  We can find ways to automate majority of them, but requires transparency, public log, after-the-fact auditing.  First need to agree on what the policy ought to be.
       * Insights from other browser vendors, web developers, and participants about what constitutes “first-party” (deferred to next call)
-* IsLoggedIn - Melanie Richards
+* [IsLoggedIn](https://github.com/privacycg/is-logged-in) - Melanie Richards
    * Overview: Proposal championed by John Wilander (Apple), not here today.
    * Attestation from web developer to UA that the user is logged in.
    * This API doesn't manage the user's identity or logged-in state.  It's just a signal to the browser indicating that the developer wants the browser to consider the user logged in
