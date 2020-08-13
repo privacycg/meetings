@@ -154,3 +154,13 @@
 * Kushal Dave (Scroll)
 * John Sabella (PubMatic)
 * Jordan Mitchell (IAB Tech Lab)
+* Andy Sharkey (CafeMedia)
+* Christopher Cornett
+* Cory Hammon
+* David Dabbs
+* Joel Odom
+* Maud
+* Michael Smith
+* Przemyslaw Iwanczak
+* Robert Stratton
+* skocheri
