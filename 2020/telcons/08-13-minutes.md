@@ -95,7 +95,7 @@
       * Ben: So is the intent to prevent first-party sites from correlating multiple visits from the same user, and so keep them from understanding that the same user is on their site on multiple occasions?
       * Mark: That Q assumes "the same user" means an identity
       * Ben: In the FPS discussion, we said the user has a strong notion of the first party = eTLD+1.  Sounds like Safari wants to intervene between a first party and the user who went to their site.
-      * Melanie: We did research about requests to access powerful APIs, like geolocation.  We found user expectation was that the information wouldn't be retained by the site forever — that the site gets geolocation access for only one session at a time.  So just because a user goes to a first party over time, not necessarily the case that they want everything to be remembered over time.  We've been hyper-focused on first parties, but looking at first-party too is valuable
+      * Melanie: We did research about requests to access powerful APIs, like geolocation.  We found user expectation was that the information wouldn't be retained by the site forever — that the site gets geolocation access for only one session at a time.  So just because a user goes to a first party over time, not necessarily the case that they want everything to be remembered over time.  We've been hyper-focused on third parties, but looking at first-party too is valuable
       * Ben: So you want to shrink the privacy boundary from eTLD+1 to eTLD+1-cross-session?
       * Melanie: Not necessarily, but give user that flexibility.  Could relax some restrictions with the isLoggedIn API.
 
