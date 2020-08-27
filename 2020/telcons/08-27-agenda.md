@@ -22,8 +22,8 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 * Work Items
     * Storage Partitioning - effects of granting storage access (https://github.com/privacycg/storage-partitioning/issues/12)
     * First-Party Sets (https://github.com/privacycg/first-party-sets/issues)
-        * Discussion about trade-offs of First-Party Sets vs. first-parties needing to combine sites that would like to share data onto a single domain.
-        * Desirable elements that should be captured by "UA policy"
+        * Trade-offs of FPS vs. requiring sites to unify on a single parent domain (https://github.com/privacycg/first-party-sets/issues/19)
+        * Desirable elements of "UA Policy" (https://github.com/privacycg/first-party-sets/issues/20)
     * IsLoggedIn - various issues (https://github.com/privacycg/is-logged-in/issues?q=is%3Aopen+is%3Aissue+label%3Aagenda%2B)
 * F2F announcements
 * Any other business
