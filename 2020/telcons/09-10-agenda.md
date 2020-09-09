@@ -18,21 +18,17 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 * Minutes will be taken in [this Google Docs document](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit#).
 
 ## Agenda
-
+* [The IsLoggedIn API](https://github.com/privacycg/is-logged-in)
+    * [Support "Remember me" functionality #9](https://github.com/privacycg/is-logged-in/issues/9)
+    * [Cater for existing logins, a.k.a. upgrade to IsLoggedIn #18](https://github.com/privacycg/is-logged-in/issues/18)
 * [Client-Side Storage Partitioning](https://github.com/privacycg/storage-partitioning)
-    * [What is the state of third party storage today in the various browsers? #12](https://github.com/privacycg/storage-partitioning/issues/12)
     * [Definition of third party #16](https://github.com/privacycg/storage-partitioning/issues/16)
 * [The Storage Access API](https://github.com/privacycg/storage-access)
     * [Make implicit deny and explicit deny indistinguishable #60](https://github.com/privacycg/storage-access/issues/60)
 * [First-Party Sets](https://github.com/privacycg/first-party-sets)
     * ["first-party" token #5](https://github.com/privacycg/first-party-sets/issues/5)
-    * [Desirable elements of "UA Policy" #20](https://github.com/privacycg/first-party-sets/issues/20)
-* [The IsLoggedIn API](https://github.com/privacycg/is-logged-in)
-    * [Support "Remember me" functionality #9](https://github.com/privacycg/is-logged-in/issues/9)
-    * [Should we standardize how we expect browsers to use this signal? #15](https://github.com/privacycg/is-logged-in/issues/15)
-    * [Managed vs Unmanaged Logins #17](https://github.com/privacycg/is-logged-in/issues/17)
-    * [Cater for existing logins, a.k.a. upgrade to IsLoggedIn #18](https://github.com/privacycg/is-logged-in/issues/18)
 * Any Other Business
+    * F2F and upcoming meetings
 
 ## Dial-in details
 
