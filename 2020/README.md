@@ -3,7 +3,7 @@
 We will have two face-to-face meetings in 2020.
 
 * [May 2020 Virtual F2F](05-virtual)
-* [October 2020 F2F at TPAC](10-vancouver)
+* [September 2020 Virtual F2F](09-virtual)
 
 We also have regular [teleconferences](telcons/) throughout the year.
 
