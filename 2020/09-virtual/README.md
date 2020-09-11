@@ -52,9 +52,9 @@ Given the ongoing global situation and in light of [W3C guidance](https://w3c.gi
 * 10:15 - 10:45 Break
 * 10:45 - 11:45 Proposals
     * [High-level trust signal (requestInstall / requestTrust)?](https://github.com/privacycg/proposals/issues/21)
-    * [Speculative Request Control](https://github.com/privacycg/proposals/issues/19) - Eli
+    * [Speculative Request Control](https://github.com/privacycg/proposals/issues/19)
     * [Bounce Tracking](https://github.com/privacycg/proposals/issues/6)
-11:45 - 12:00 Close the day
+* 11:45 - 12:00 Close the day
 
 ## Logistics
 
@@ -65,3 +65,7 @@ We'll use our regular **[Google Doc](https://docs.google.com/document/d/1DZEhS1U
 * Meeting ID: 769 153 986
 * Zoom native client: https://mozilla.zoom.us/j/769153986
 * Zoom web client: https://zoom.us/wc/join/769153986?pwd=?
+* One tap mobile
+    * +16699009128,,769153986# US (San Jose)
+    * +16465588656,,769153986# US (New York)
+    * Find your local number: https://mozilla.zoom.us/u/a68iWilBp
