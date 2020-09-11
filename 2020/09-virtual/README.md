@@ -19,7 +19,7 @@ Given the ongoing global situation and in light of [W3C guidance](https://w3c.gi
 
 ## Agenda
 
-### Day 1 (Thur Sept 16; All times are in PDT)
+### Day 1 (Wed Sept 16; All times are in PDT)
 * 8:00 - 8:15 Introductions
 * 8:15 - 9:00 Storage Partitioning
     * [Clear-Site-Data for partitioned storage can be used for cross-site tracking](https://github.com/privacycg/storage-partitioning/issues/11)
