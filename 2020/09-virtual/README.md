@@ -54,7 +54,7 @@ Given the ongoing global situation and in light of [W3C guidance](https://w3c.gi
     * [High-level trust signal (requestInstall / requestTrust)?](https://github.com/privacycg/proposals/issues/21)
     * [Speculative Request Control](https://github.com/privacycg/proposals/issues/19)
     * [Bounce Tracking](https://github.com/privacycg/proposals/issues/6)
-* 11:45 - 12:00 Close the day
+* 11:45 - 12:00 Closing Remarks
 
 ## Logistics
 
