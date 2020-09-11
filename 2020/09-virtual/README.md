@@ -22,30 +22,30 @@ Given the ongoing global situation and in light of [W3C guidance](https://w3c.gi
 ### Day 1 (Thur Sept 16; All times are in PDT)
 * 8:00 - 8:15 Introductions
 * 8:15 - 9:00 Storage Partitioning
-    * https://github.com/privacycg/storage-partitioning/issues/11
-    * https://github.com/privacycg/storage-partitioning/issues/14
+    * [Clear-Site-Data for partitioned storage can be used for cross-site tracking](https://github.com/privacycg/storage-partitioning/issues/11)
+    * [Expose the first party to a partitioned third party](https://github.com/privacycg/storage-partitioning/issues/14)
 * 9:00 - 9:15 Break
 * 9:15 - 10:15 Storage Access API
-    * https://github.com/privacycg/storage-access/issues/60
-    * https://github.com/privacycg/storage-access/issues/62
+    * [Make implicit deny and explicit deny indistinguishable](https://github.com/privacycg/storage-access/issues/60)
+    * [Require reload after granting requestStorageAccess to get at unpartitioned storage](https://github.com/privacycg/storage-access/issues/62)
 * 10:15 - 10:45 Break
 * 10:45 - 11:45 First-Party Sets
-    * https://github.com/privacycg/first-party-sets/issues/20
-    * https://github.com/privacycg/first-party-sets/issues/5
+    * [Desirable elements of "UA Policy"](https://github.com/privacycg/first-party-sets/issues/20)
+    * ["first-party" token](https://github.com/privacycg/first-party-sets/issues/5)
 * 11:45 - 12:00 Close the day
-* 12:00 - 12:10 Break
+* 12:00 - 12:10 Optional Break
 * 12:10 - 1:00 Optional Mixer / Hallway Chat in breakout zoom rooms
 
 ### Day 2 (Thur Sept 17; All times are in PDT)
 * 8:00 - 8:30 [IsKnown Proposal](https://github.com/privacycg/proposals/issues/20)
 * 8:30 - 9:00 IsLoggedIn Part 1
-    * https://github.com/privacycg/is-logged-in/issues/15
-    * https://github.com/privacycg/is-logged-in/issues/21
-    * https://github.com/privacycg/is-logged-in/issues/9
-    * https://github.com/privacycg/is-logged-in/issues/18
-    * https://github.com/privacycg/is-logged-in/issues/13
-    * https://github.com/privacycg/is-logged-in/issues/19
-    * https://github.com/privacycg/is-logged-in/issues/14
+    * [Should we standardize how we expect browsers to use this signal?](https://github.com/privacycg/is-logged-in/issues/15)
+    * [Support multi-login and multiple user profiles](https://github.com/privacycg/is-logged-in/issues/21)
+    * [Support "Remember me" functionality](https://github.com/privacycg/is-logged-in/issues/9)
+    * [Cater for existing logins, a.k.a. upgrade to IsLoggedIn](https://github.com/privacycg/is-logged-in/issues/18)
+    * [Prevent 1p websites from fingerprinting IsLoggedIn state in 3p iframes](https://github.com/privacycg/is-logged-in/issues/13)
+    * [3p access to isLoggedIn](https://github.com/privacycg/is-logged-in/issues/19)
+    * [Why expose IsLoggedIn state directly?](https://github.com/privacycg/is-logged-in/issues/14)
 * 9:00 - 9:15 Break
 * 9:15 - 10:15 IsLoggedIn Part 2
     * See issues linked above
