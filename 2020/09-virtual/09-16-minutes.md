@@ -10,6 +10,7 @@ See self-written intros for each participant at the end of the minutes.
 
 
 #### Storage Partitioning
+*   Discussion lead: Anne
 *   Scribe: Arthur
 
 *   [Clear-Site-Data for partitioned storage can be used for cross-site tracking](https://github.com/privacycg/storage-partitioning/issues/11)
