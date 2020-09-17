@@ -55,6 +55,8 @@ Given the ongoing global situation and in light of [W3C guidance](https://w3c.gi
     * [Speculative Request Control](https://github.com/privacycg/proposals/issues/19)
     * [Bounce Tracking](https://github.com/privacycg/proposals/issues/6)
 * 11:45 - 12:00 Closing Remarks
+* 12:00 - 12:10 Optional Break
+* 12:10 - 1:00 Optional Discussion on Conversion/Ads led by charrison and mkleber
 
 ## Logistics
 
