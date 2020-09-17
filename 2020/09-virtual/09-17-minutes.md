@@ -170,6 +170,75 @@ There are other uses for this. Storage is just one benign use. Browser can show 
 *   [Why expose IsLoggedIn state directly?](https://github.com/privacycg/is-logged-in/issues/14)
     *   Punt to github, out of time.
 
+### Proposals
+Scribe: Anne van Kesteren
+
+#### [High-level trust signal (requestInstall / requestTrust)?](https://github.com/privacycg/proposals/issues/21)
+*   Kushal Dave: Relates to issue 9 of isLoggedIn. Would rather have first-party state, but if not… Users can take an action and that action indicates a willingness to preserve state. It seems installing conveys that willingness. I think installation conveys a high-level of trust. If we can separate the third party and first party state problem, isLoggedIn could maybe focus on third parties.
+*   John Willander: Is installation a trust signal on Android?
+*   Kushal: I think in the world of apps it’s a trust signal and I’m wondering if we can port that to sites.
+*   John: Probably a whole spectrum, e.g., pinned tabs or site engagement index. Interesting.
+*   Sam: Do people feel like they need more of the details?
+*   Achim: I would
+*   Kushal: You go to a website. Website says: “You come here a lot, click this button” Browser says: “Do you trust this site?” User: “Sure”. This trust bit might unlock other bits, such as the right to advertise you’re logged in or the ability to ask for notifications. Trying to differentiate sites you care about and sites you hate.
+*   Darth Michael: There’s something in the concerns section.
+*   Michael: A key concern is the bundling. I.e., beneficial user experience and additional privileges. Tying them together is inherently problematic. Perhaps not impossible, e.g., storage might be okay, but notifications seems questionable.
+*   Kushal: I was hoping this would make it harder, not easier. I.e., you get this bit first, but you still have to get the other bit through its usual flow, it’s just that you can no longer get to that directly.
+*   Sam: This came up at [W3C’s 2018 workshop on permissions and user consent.](https://www.w3.org/Privacy/permissions-ws-2018/report.html) Engagement was clumsy and perhaps inappropriate. Not sure installation was discussed a lot, but very concerned about bundling. Users have to buy into something before getting other things.  This risks falling into the anti-pattern of “jumping on users as soon as they arrive on the site”.  This seems antithetical to the Web, and I’m not enthused. 
+*   Kushal: Fair, but sites also push users towards native apps and this might be a way of avoiding that.
+*   Basile: Bundling is very dangerous. ??? API falls apart quickly. I agree the web has gotten way worse due to permission requests. I want you to remember that this is caused by regulation (at least in Europe [and California]) and what we are doing has to take that into account.
+*   Joey: I would like to know what is meant by installation? Is that optional for the user?
+*   Kushal: I was thinking about it as being revocable, similar to other permission bits.
+*   Joey: If the user signals trust for various domains, does it remain there temporarily, can the user remove them?
+*   Kushal: I was imagining that they stay forever, but I could see them being cleaned up.
+*   Joey: Seems important to consider for third parties if they are allowed to get this bit.
+*   Erik: Chrome has PWAs, Safari has “add to home screen”.
+*   James: About consent fatigue. [Lawmakers in Europe have recognized this problem](https://data.consilium.europa.eu/doc/document/ST-5979-2020-INIT/en/pdf). Having a broad set of choices at installation time all that can be changed over time. Enable people to choose a policy that they are instructing their agent (the user agent) to follow. This would avoid needing to approach these specific use cases in isolation. Has any work been done around that area or is that something we can build on?
+*   Kushal: I actually think issue 9 (from isLoggedIn) is closer to something that makes sense to me, but wanted to throw this out there.
+
+#### [Speculative Request Control](https://github.com/privacycg/proposals/issues/19)
+*   Eli Grey: I’d like site owners to defer their CSP responsibilities to third party consent providers. Speculating fetching (currently not standardized) defeats this. Turning off speculative fetching is a performance degradation, but I think is negligible for dynamic sites.
+*   Mike O’Neill: CSP has prefetch-src and nobody has implemented it. Those domains would not be prefetched.
+*   Eli: I’m referring to the instantiation of CSP through &lt;meta> and I want this to happen before any fetching happens. As otherwise CSP won’t be enforced for those fetches.
+*   Mike: You can insert &lt;meta>, but it doesn’t handle speculative fetching. If browsers implement prefetch-src.
+*   Eli: It would maybe work with prefetch-src: ‘none’ (placed in an literal &lt;meta> CSP).
+*   Tess: I’m curious, this would be a pretty big change. Do browser people have thoughts?
+*   Eli: It doesn’t seem like it would be a huge change from looking at Chrome.
+*   Tess: Most browsers have a preload scanner. So the signal would have to be very early on.
+*   Eli: I was thinking about a header or an attribute on the root element.
+*   Eli: We currently ship this in a product I work on and this is a limitation that we document. So there’s a bit less security for sites.
+*   Jeffrey: I wanted to think about next steps. Looking at the issue I see opposition from WebKit and Mozilla. If there is not more support I think we should maybe abandon it.
+*   Eli: There was some positive feedback from Chrome engineers I interacted with.
+*   Tess: Things don’t move on from proposal to work item unless there’s broader support. Iterating in the proposal phase is fine however and seeing if you can change hearts and minds.
+
+#### [Bounce Tracking](https://github.com/privacycg/proposals/issues/6) 
+*   John: This was filed as a proposal a while back, somewhere in the spring. Websites that had been a first-party at some point could get first-party cookies when navigated to as a third-party. That was the old 2003 policy. Link shorteners do bounce tracking (if they do). ITP has protection against this by counting the number of unique site a given site redirects to. If you redirect through too many sites you’re a tracker and you might get your storage more quickly deleted. Also tries to do collusion detection if there’s a bounce tracker in the middle that doesn’t hit the limit. Has interacted with in the last 30 days is pretty weak which is why isLoggedIn is appealing to us. Mozilla has put forward bounce tracking protections. Brave has done research. WebKit has a SameSite=Strict-jail. Can we standardize parts of bounce tracking and turn this into a work item?
+*   Steve Englehardt (Mozilla): We are in the process of redirect tracking prevention. Doing a slow rollout right now. We don’t have a classifier but use a blocklist. We expire after 45 days of real usage. We don’t see parties that the user regularly interacts with falling off here, and most users only have few sites on that list (mostly under 5). But there are still some remaining cases we need to handle. I wonder if these differences are significant enough to prevent standardization.
+*   John: Usually specifications are pretty vague, e.g., cookies says that the user agent is allowed to block cookies. We could have similar vague-ish wording, e.g., “If the user agent determines the site to be a bounce tracker, …”
+*   Steve: seems productive
+*   John: Are you actively thinking about the remaining problem? [...]
+*   Steve: Talked about it, but at the level of ideation: concerned about circumvention. Focusing on shipping what we have right now.
+*   John: What should the work item scope be? All the bounce tracking ideas we have agreement on?
+*   Steve: The broader problem seems more interesting.
+*   James: Two questions. You mentioned link shorteners. From my basic understanding of OAuth it’s passing tokens around. 1) Does this not disrupt this? 2) Does DisconnectMe not solve this?
+*   John: This plays directly into the isLoggedIn problem. If we can formalize logins we can distinguish them from bounce trackers. We can even formalize federated login and not count those redirects toward bounce tracking.
+*   Steve: Firefox doesn’t use a classifier and uses blocklist from Disconnect, but that doesn’t solve the remaining issue. Interaction with a first party can be gamed. And parties that receive interaction can then also do bounce tracking.
+*   John: With the blocklist approach, bad actors could keep registering new domains.
+*   Ben Savage: Great discussion that’s problem oriented. It seems to me that the definitive feature of bounce tracking is redirects. Can we use that signal rather than user interaction or other trust signals? [Describes specific example: Step 4 says tracker.example is not first party, so it sets a cookie.  is there a possibility where browser says hey set this cookie.  and the browser says this is in progress.  and that transaction doesn’t get committed.] Could the browser make a cookie set “pending” rather than immediate? If want to solve this go back to incentives; way to break incentive by making the redirect such a terrible experience. An approach might be to make redirects unattractive to the extent that sites would give up on that. As for Disconnect, would love to find ways to work together so it doesn’t break valid use cases. And protect not just for the small website but the big ones too.
+*   James: Stepping away from bounce tracking. Pseudonymous identifiers are very useful in certain contexts. A halfway house between anonymous and logged in. Supports the right to be forgotten very easily as opposed to real names or email addresses. Arguably better privacy. As we continue here we need to keep those things in mind. The binary statement of this problem is too simplistic. We shouldn’t prevent good actors from doing good things with people’s consent in an attempt to prevent bad actors by default.
+*   Erik: I know the initial framing was about a comprehensive defense. I think the list-based things can be a cat-and-mouse. Might not have global coverage. Classifiers also seem problematic. From a standardization perspective I wonder if we can figure out an approach that’s easier for sites to deal with and is more predictable.
+*   Melanie: I want to echo Erik. Let’s go back to the legitimate use cases and see if we can differentiate those from the evil ones. What is an IDP OAuth flow versus a bounce redirect? Perhaps purpose-built APIs are the only way forward here, such as WebID.
+*   John: To get back to Ben’s points. As far as I know it’s not specified whether Set-Cookie headers in 3xx need to be honored. Not honoring them breaks the web. So you honor it, and then delete it an hour later. There are other ways to redirect (http-equiv=refresh, location.href=, &lt;a>.click()), potentially delayed. You need to account for those too.
+*   Michael Kleber: Other people said what I wanted to. Completely agree with Melanie and Erik. Should have dedicated APIs for these kind of flows, e.g., WebID. Makes it easier to sort out the riff raff.
+*   Steve: I agree with Michael’s take. Doing this at a platform level would be awesome.
+*   John: I hoped to use first-party sets here. If the purpose is not tracking we could allow them to not count toward bounce tracking.
+*   Michael: I think it’s very different given federated logins.
+*   John: I only mean SSO.
+*   [Still seems problematic if a service has a deal with many companies???]
+
+### Closing Remarks
+*   Please take the survey! See the link in Slack.
+
 ### Attendees
 1. Achim Schlosser (European netID Foundation)
 1. Andrew Knox (Facebook)
@@ -237,3 +306,6 @@ There are other uses for this. Storage is just one benign use. Browser can show 
 1. Henry Lau (Privolta) 
 1. Sean Bedford (Facebook)
 1. Jeffrey Yasskin (Google Chrome)
+1. Eli Grey (Transcend)
+1. Wendell Baker (Verizon Media)
+
