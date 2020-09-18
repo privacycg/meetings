@@ -224,7 +224,7 @@ Scribe: Anne van Kesteren
 *   John: This plays directly into the isLoggedIn problem. If we can formalize logins we can distinguish them from bounce trackers. We can even formalize federated login and not count those redirects toward bounce tracking.
 *   Steve: Firefox doesn’t use a classifier and uses blocklist from Disconnect, but that doesn’t solve the remaining issue. Interaction with a first party can be gamed. And parties that receive interaction can then also do bounce tracking.
 *   John: With the blocklist approach, bad actors could keep registering new domains.
-*   Ben Savage: Great discussion that’s problem oriented. It seems to me that the definitive feature of bounce tracking is redirects. Can we use that signal rather than user interaction or other trust signals? [Describes specific example: Step 4 says tracker.example is not first party, so it sets a cookie.  is there a possibility where browser says hey set this cookie.  and the browser says this is in progress.  and that transaction doesn’t get committed.] Could the browser make a cookie set “pending” rather than immediate? If want to solve this go back to incentives; way to break incentive by making the redirect such a terrible experience. An approach might be to make redirects unattractive to the extent that sites would give up on that. As for Disconnect, would love to find ways to work together so it doesn’t break valid use cases. And protect not just for the small website but the big ones too.
+*   Ben Savage: Great discussion that’s problem oriented. It seems to me that the definitive feature of bounce tracking is redirects. Can we use that signal rather than user interaction or other trust signals? (Describes specific example: Step 4 says tracker.example is not first party, so it sets a cookie.  is there a possibility where browser says hey set this cookie.  and the browser says this is in progress.  and that transaction doesn’t get committed.) Could the browser make a cookie set “pending” rather than immediate? If want to solve this go back to incentives; way to break incentive by making the redirect such a terrible experience. An approach might be to make redirects unattractive to the extent that sites would give up on that (example have to wait forever; people won’t do it, they bail; site owners give up.). As for Disconnect, would love to find ways to work together so it doesn’t break valid use cases. And protect not just for the small website but the big ones too.
 *   James: Stepping away from bounce tracking. Pseudonymous identifiers are very useful in certain contexts. A halfway house between anonymous and logged in. Supports the right to be forgotten very easily as opposed to real names or email addresses. Arguably better privacy. As we continue here we need to keep those things in mind. The binary statement of this problem is too simplistic. We shouldn’t prevent good actors from doing good things with people’s consent in an attempt to prevent bad actors by default.
 *   Erik: I know the initial framing was about a comprehensive defense. I think the list-based things can be a cat-and-mouse. Might not have global coverage. Classifiers also seem problematic. From a standardization perspective I wonder if we can figure out an approach that’s easier for sites to deal with and is more predictable.
 *   Melanie: I want to echo Erik. Let’s go back to the legitimate use cases and see if we can differentiate those from the evil ones. What is an IDP OAuth flow versus a bounce redirect? Perhaps purpose-built APIs are the only way forward here, such as WebID.
@@ -237,7 +237,75 @@ Scribe: Anne van Kesteren
 *   [Still seems problematic if a service has a deal with many companies???]
 
 ### Closing Remarks
-*   Please take the survey! See the link in Slack.
+*   Please take the survey! See the link in Slack/email.
+
+
+### Breakout session - PCM/Conversion/Ad Topics Discussion Continues
+* Breakout 3 Continued from yesterday
+* Don’t switch zoom rooms, stay here since we don’t have multiple breakouts.
+   * Lead: Charlie Harrison, Michael Kleber
+   * Scribe: Peter Saint-Andre / Wendell Baker / and others?
+   * Topic: PCM, conversion measurement, and other ads topics if people want
+   * Attendee sign up: Ben Savage, John Sabella, Theodore Olsauskas-Warren, Brad Rodriguez, Tanvi Vyas, Steven Englehardt, Peter Saint-Andre, Achim Schlosser, Marshall Vale, James Hartig, Sam Weiler, Wendy Seltzer, Andy Sharkey, Aram Zucker-Scharff, Chris Needham, Eli Grey, Henry Lau, Jack Frankland, John Wialnder, Scott Low, Russ Hamilton, Erik Anderson, Eric Mwobibia
+* Continuation of yesterday's break-out, notes from yesterday are posted [here](https://github.com/privacycg/meetings/blob/master/2020/09-virtual/09-16-minutes.md#breakout-session-on-pcmads)
+* Notes: ….
+* Charlie Harrison:
+   * There are two mechanisms for adding noise to prevent tracking: (1) low-bit-sized identifiers and (2) differential privacy.
+   * - both mechanisms hide individual contributions
+   * - low-bit IDs (info missed)
+   * - aggregate measurement doesn't allow tracking individuals at scale
+   * - at some level there's an equivalency here
+   * we don't want to support learnings about groups even if we can protect the individual[a]
+   * learning groups can be done in both proposals
+   * if we don't' want to learn about group behavior, we'd need to change PCM
+   * local DPs solution is more flexible - you can describe the groups you want to learn about after the fact, this allows for more sophisticated training of models ("late binding aggregation"); this has valuable use cases beyond training, where you don't know the data beforehand (unlike, say, campaign IDs); let's say you're trying to figure out conversion fraud after the fact
+   * Use the late-binding property to learn about the conversion properties.  But no need to predict it ahead of time.
+   * An important use case is to measure but without knowing specifically what is to be measured ahead of time.
+* John Wilander Trying to get aggregate measurement case.  Bens had a different  
+   * John: we've tried to solve for the aggregate measurement case with PCM
+   * that doesn't mean webkit wouldn't engage on other topics eventually
+   * John for repurposing data
+   * as to repurposing data, that sounds scary - there's a slippery slope here
+   * the click source might have a lot of data and there's no end to the mining and AI you can apply to it
+* Charlie: I see the concern; there's a knob we can turn about how much privacy we provide and we can turn that far enough so that you can only get noisy data about groups. Perhaps going through examples would help.
+* Ben: if you've acked that there's a tradeoff and there's an acceptable position along that spectrum, then we can reverse-engineer the necessary level of diff priv; the way to do that is to figure out what data is available to the click source under PCM, what can you do with that conversion event? look at all the clicks in a 24-hour range, had to come from this click destination, this campaign ID, and keep filtering it down. You wind up with more than one candidate so you don't know with confidence, but you have N possibilities and you assign probabilities to each of those entities and you have probabilistic data
+* John: time has two parts to the domain of things one can learn.  There are seven days in the window for conversion.  With a minimum of delay of twenty four hours so that the day-part cannot be used.  This makes the mapping back to the individual difficult. The quantification of the variability of these dimensions is part of the guarantee.  When noise is applied, of course it is probabilistic, but there are cases where the population set is small enough that there really isn’t noise at all.
+* John: PCM is a proposal but not the definitive solution to this problem.  There may be changes to the proposal that will come up when trials happen, we might decide to lock it down further, etc.  Refinements may occur as new trials happen.
+* Wendell Baker: getting something out there and revising from there seems like a good path
+* Henry Lau: advertising has many aspects besides clicks. In brand advertising there are other concerns beyond just clicks. The larger issue is about first parties and consumer choice (consent, popups, etc.). There are flows which get consumers to opt-in but it is harder to opt-out. The question is around handling consent fatigue
+* Charlie: there are challenges with notices.  Still working on the UX research. Also the harmonization.  View-through conversions.  What needs to be defined are the protections that will be covered.   
+* Charlie: Chrome has a version-feature-process for origin trials. [there’s a link].  So field trials can be pursued with features. Intent to Experiment with Origin Trials on the Aggregate Reporting [link] was just announced. 
+* Charlie: the consent fatigue is known.
+* John: towards experimentation and versioning of such experiments.  The PCM explainer opens an invitation towards trials and returning feedback. But the feedback was that there was insufficient fraud prevention mitigations in place.
+* John: the WebKit Vision is to have a safe web which does have tracking or other features of the current web which is unsafe.  Safe by default.  There is no tracking.  And also there is a thriving business (of media). However the vision has not been codified in requirements.
+* Henry: CCPA 
+* John: the vision for WebKit is that Privacy is not “opt in” instead it is “by default”  The Web is Safe.
+* Ben: Apple is trying to solve the aggregate measurement use cases.  If that is the case, what Charlie has described is a far better solution to the problem of aggregated measurement.  Much more flexible.  Only getting aggregated statistic. No reporting individual, Addition of global diff priv is nice, you can mathematically prove it without degradation. The idea of having a stateless server infra and it can't do anything with it (MPC = Multi-Party Computation, like Firefox's Prio), that seems like a good way to just count stuff (even though it's expensive). Multiparty computation model is pretty strong. What do you think about using something like that for aggregated measurement?
+* John: I think back to how we got here. In the spring of 2019 we didn't have any proposals and now we do. We are very interested in these proposals. Very interested in Prio too. This could provide better privacy guarantees than PCM.
+* John: The requirements have been fleshed out as the debate has continued: Fraud: Measurement.  We’ve learned from Prio, Telemetry and the Stanford (Boneh et al) - https://crypto.stanford.edu/prio/
+* John: we're looking at proposals and feedback, nothing definitive yet.
+* John: asking for an alignment among the browser builders
+* Peter: need two parties for prio.  I’m working on parties to run the helper servers.  Have some trials with opt in population.  Not rolled out.  Extremely good promise.  As soon as partner, may deploy it in various parts of mozilla.  Origin telemetry a great way to do it.  Yes a bit heavy, lot lighter than what came before.  Henry Corrigan-Gibbs and Dan Boneh have put a lot of work in making it more than a research project.  Rust, Go.  ?.. Lot of energy there.  Have more to report in future face to face.  Maybe some public deployments by then.  Lot of promise for aggregate deployment.
+   * From zoom chat: Charlie Harrison: one caveat: FB actually filed an issue against us to make the aggregation service _more_ like Prio since we didn't use everything :P https://github.com/WICG/conversion-measurement-api/issues/40
+* John: looking at Prio, need to look more at the threats.  There are cases reporting the cryptoblobbs to ad networks.  The question is what to do with untrustworthy browsers who create aggregates to trigger thresholds and then flush out a unique event.  The models do not have adversaries like that in their explanation universe.  Telemetry does not have adversaries.
+* John: when it is a browser monoculture then there is a simpler problem.  But in this case there are adversaries like click farms.
+* Tanvi: what is the status of fraud prevention?  Trust Token has a longer roadmap.  PCM is under a switch because it needs assistance to make it a complete feature.   The fraud prevention capability is a long-tail sort of a roadblock on completing the reporting piece.
+* John: Trust Tokens look interesting but are too much for reporting.  All that is needed is blinded signatures.  That is a simpler approach.  This will decouple fraud prevention from trust motion.
+* Charlie: fraud prevention is useful enough.  There is not fraud prevention in the API in trials now.  Google’s proposal based on event level; mitigates fraud attacks, not all. There has not been enough progress on modeling fraud and the types of fraud that will be addressed. Aggregate API does have a section on how fraud works, similar to John’s ideas.
+   * From zoom chat: Trust Tokens *are* in Origin Trial in Chrome: https://groups.google.com/a/chromium.org/g/blink-dev/c/UIvia1WwIhk/m/DuXLKdF7AgAJ
+* Achim: there has been a conversation on FLoC.  Publishers have a view concern that processing of user data needs a legal basis.
+* Charlie: differential privacy can help prevent against bots etc. (which k-anon can't)
+* Charlie: one framing is privacy provided by servers vs. privacy provided by device; could imagine two worlds, one API that provides aggregate data and another API that provides event-level data. There are benefits and tradeoffs in both. We could implement both and they're done in slightly different ways to satisfy different use cases.
+* Ben: global diff priv is designed to guard against preventing bad actors/endpoints
+* Ben: I like the simplicity of inlining blind signatures
+* Charlie: I agree that the API as defined right now is not a panacea for fraud
+* Ben: I look forward to a version of PCM that includes blind signatures
+* Ben: important to look at the financial aspects of multi-party computation, FB's Andrew Knox works on this, looking to figure out a system that can be deployed in production
+* Ben: however, it can be expensive, so it's reasonable for entities to charge API consumers
+* Peter: I'll have more to report in the future :-)
+* …
+
+
 
 ### Attendees
 1. Achim Schlosser (European netID Foundation)
