@@ -254,10 +254,10 @@ Scribe: Anne van Kesteren
 * Charlie Harrison:
    * There are two mechanisms for adding noise to prevent tracking: (1) low-bit-sized identifiers and (2) differential privacy.
    * - both mechanisms hide individual contributions
-   * - low-bit IDs (info missed)
+   * - low-bit IDs (info missed - Charlie later commented: "I was trying to make a point here about how low-bit IDs have edge cases where you can track a small # of individuals")
    * - aggregate measurement doesn't allow tracking individuals at scale
    * - at some level there's an equivalency here
-   * we don't want to support learnings about groups even if we can protect the individual[a]
+   * we don't want to support learnings about groups even if we can protect the individual (There was some followup here in comments - from Charlie: "Thanks so much for pinging me about this. I was recapping one of John's comments from the previous day. John had previously said they were not even comfortable with ML learning about group behavior. This was not my personal position.")
    * learning groups can be done in both proposals
    * if we don't' want to learn about group behavior, we'd need to change PCM
    * local DPs solution is more flexible - you can describe the groups you want to learn about after the fact, this allows for more sophisticated training of models ("late binding aggregation"); this has valuable use cases beyond training, where you don't know the data beforehand (unlike, say, campaign IDs); let's say you're trying to figure out conversion fraud after the fact
