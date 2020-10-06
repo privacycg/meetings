@@ -20,9 +20,9 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 ## Agenda
 * [Proposal: Site Groups / First Party Sets v2](https://github.com/privacycg/proposals/issues/22)    
 * [First-Party Sets](https://github.com/privacycg/first-party-sets)
-    * [First-Party Sets naming](https://github.com/privacycg/first-party-sets/issues/27)
     * [Domains state purpose for being in First-Party Set](https://github.com/privacycg/first-party-sets/issues/28)
     * [Enforcement against formation of large sets](https://github.com/privacycg/first-party-sets/issues/29)
+    * [First-Party Sets naming](https://github.com/privacycg/first-party-sets/issues/27)   
 * [Storage Access API](https://github.com/privacycg/storage-access)
     * [Require reload after granting requestStorageAccess to get at unpartitioned storage](https://github.com/privacycg/storage-access/issues/62)
 * [The IsLoggedIn API](https://github.com/privacycg/is-logged-in)
