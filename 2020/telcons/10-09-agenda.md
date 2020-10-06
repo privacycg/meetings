@@ -18,9 +18,6 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 * Minutes will be taken in [this Google Docs document](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit#).
 
 ## Agenda
-* [The IsLoggedIn API](https://github.com/privacycg/is-logged-in)
-    * [Support for federated logins, or the ability to transfer IsLoggedIn](https://github.com/privacycg/is-logged-in/issues/35)
-    * [Supporting display name and avoiding misuse of them](https://github.com/privacycg/is-logged-in/issues/36)
 * [Proposal: Site Groups / First Party Sets v2](https://github.com/privacycg/proposals/issues/22)    
 * [First-Party Sets](https://github.com/privacycg/first-party-sets)
     * [First-Party Sets naming](https://github.com/privacycg/first-party-sets/issues/27)
@@ -28,6 +25,9 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
     * [Enforcement against formation of large sets](https://github.com/privacycg/first-party-sets/issues/29)
 * [Storage Access API](https://github.com/privacycg/storage-access)
     * [Require reload after granting requestStorageAccess to get at unpartitioned storage](https://github.com/privacycg/storage-access/issues/62)
+* [The IsLoggedIn API](https://github.com/privacycg/is-logged-in)
+    * [Support for federated logins, or the ability to transfer IsLoggedIn](https://github.com/privacycg/is-logged-in/issues/35)
+    * [Supporting display name and avoiding misuse of them](https://github.com/privacycg/is-logged-in/issues/36)
 * [Proposal: Standardizing Do Not Sell Proposal](https://github.com/privacycg/proposals/issues/10)
 * Any Other Business
     * F2F Survey Results
