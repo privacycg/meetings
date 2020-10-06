@@ -21,14 +21,14 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 * [The IsLoggedIn API](https://github.com/privacycg/is-logged-in)
     * [Support for federated logins, or the ability to transfer IsLoggedIn](https://github.com/privacycg/is-logged-in/issues/35)
     * [Supporting display name and avoiding misuse of them](https://github.com/privacycg/is-logged-in/issues/36)
-* [Site Groups / First Party Sets v2](https://github.com/privacycg/proposals/issues/22)    
+* [Proposal: Site Groups / First Party Sets v2](https://github.com/privacycg/proposals/issues/22)    
 * [First-Party Sets](https://github.com/privacycg/first-party-sets)
     * [First-Party Sets naming](https://github.com/privacycg/first-party-sets/issues/27)
     * [Domains state purpose for being in First-Party Set](https://github.com/privacycg/first-party-sets/issues/28)
     * [Enforcement against formation of large sets](https://github.com/privacycg/first-party-sets/issues/29)
-* [Standardizing Do Not Sell Proposal](https://github.com/privacycg/proposals/issues/10)
-* [Storage Access API}()
+* [Storage Access API](https://github.com/privacycg/storage-access)
     * [Require reload after granting requestStorageAccess to get at unpartitioned storage](https://github.com/privacycg/storage-access/issues/62)
+* [Proposal: Standardizing Do Not Sell Proposal](https://github.com/privacycg/proposals/issues/10)
 * Any Other Business
     * F2F Survey Results
 
