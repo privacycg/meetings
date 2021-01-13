@@ -4,9 +4,9 @@ This repository contains agendas, minutes, and other materials from meetings of 
 
 We have three kinds of meetings:
 
-1. **Face-to-faces** ([logistics, agendas, and minutes for 2020](2020/))
+1. **Face-to-faces** ([logistics, agendas, and minutes for 2021](2021/))
     We hope to have a couple of face-to-face meetings each year.
-2. **Plenary teleconferences** ([logistics, agendas, and minutes for 2020](2020/telcons/))
+2. **Plenary teleconferences** ([logistics, agendas, and minutes for 2021](2021/telcons/))
     We meet in plenary twice a month.
 3. **Ad-hoc teleconferences**
     We occasionally have ad-hoc calls on specific topics.
