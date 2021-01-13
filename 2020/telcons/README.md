@@ -1,60 +1,30 @@
 # Privacy Community Group Teleconferences in 2020
 
-The Privacy CG meets on the **2nd and 4th Thursdays** of each month, at
-noon Boston time (EDT). That translates to
+The Privacy CG generally met on the 2nd and 4th Thursdays of each month during 2020.
 
-| Time  | Day | Location |
-| ------| --- | -------- |
-| 01:00 | Fri | Tokyo |
-| 02:00 | Fri | Sydney |
-| 09:00 | Thu | San Francisco |
-| 12:00 | Thu | Boston |
-| 17:00 (5 PM) | Thu | London |
-| 18:00 (6 PM) | Thu | Brussels |
+| Date  | Agenda | Minutes |
+| ----- | ------ | ------- |
+| 01-23 | [agenda](01-23-agenda.md) | [minutes](01-23-minutes.md) |
+| 02-13 | [agenda](02-13-agenda.md) | [minutes](02-13-minutes.md) |
+| 02-27 | [agenda](02-27-agenda.md) | [minutes](02-27-minutes.md) |
+| 03-12 | [agenda](03-12-agenda.md) | [minutes](03-12-minutes.md) |
+| 03-26 | [agenda](03-26-agenda.md) | [minutes](03-26-minutes.md) |
+| 04-09 | [agenda](04-09-agenda.md) | [minutes](04-09-minutes.md) |
+| 04-23 | [agenda](04-23-agenda.md) | [minutes](04-23-minutes.md) |
+| 05-28 | [agenda](05-28-agenda.md) | minutes |
+| 06-11 | [agenda](06-11-agenda.md) | [minutes](06-11-minutes.md) |
+| 06-25 | [agenda](06-25-agenda.md) | [minutes](06-25-minutes.md) |
+| 07-09 | [agenda](07-09-agenda.md) | [minutes](07-09-minutes.md) |
+| 08-13 | [agenda](08-13-agenda.md) | [minutes](08-13-minutes.md) |
+| 08-27 | [agenda](08-27-agenda.md) | [minutes](08-27-minutes.md) |
+| 09-10 | [agenda](09-10-agenda.md) | [minutes](09-10-minutes.md) |
+| 10-08 | [agenda](10-08-agenda.md) | [minutes](10-08-minutes.md) |
+| 11-12 | [agenda](11-12-agenda.md) | [minutes](11-12-minutes.md) |
+| 12-10 | [agenda](12-10-agenda.md) | [minutes](12-10-minutes.md) |
 
-We use [this Google Doc](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit#) for taking minutes.
+In addition to the above telcons, we had two ad-hoc meetings:
 
-## Join Zoom Meeting
-* Meeting ID: 769 153 986
-* https://mozilla.zoom.us/j/769153986
-
-* One tap mobile
-    * +16699009128,,769153986# US (San Jose)
-    * +16465588656,,769153986# US (New York)
-
-* Dial by your location
-    * +1 669 900 9128 US (San Jose)
-    * +1 646 558 8656 US (New York)
-    * 877 853 5257 US Toll-free
-    * +61 2 8015 6011 Australia
-    * +61 3 7018 2005 Australia
-    * +61 8 7150 1149 Australia
-    * 1800 893 423 Australia Toll-free
-    * +1 647 558 0588 Canada
-    * 855 703 8985 Canada Toll-free
-    * +33 1 7037 2246 France
-    * +33 1 7037 9729 France
-    * +33 7 5678 4048 France
-    * 0 805 082 588 France Toll-free
-    * +49 30 5679 5800 Germany
-    * +49 695 050 2596 Germany
-    * +49 69 7104 9922 Germany
-    * 0 800 724 3138 Germany Toll-free
-    * +852 5803 3730 Hong Kong, China
-    * +852 5803 3731 Hong Kong, China
-    * +852 5808 6088 Hong Kong, China
-    * 800 906 780 Hong Kong, China Toll-free
-    * +44 203 481 5237 United Kingdom
-    * +44 203 481 5240 United Kingdom
-    * +44 131 460 1196 United Kingdom
-    * +44 203 051 2874 United Kingdom
-    * 0 800 031 5717 United Kingdom Toll-free
-    * Find your local number: https://mozilla.zoom.us/u/a68iWilBp
-
-## Useful links for chairs when creating agendas
-
-* [Google Docs add-on for converting to Markdown](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607)
-* [everything labeled agenda+ across our org](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2B&unscoped_q=label%3Aagenda%2B)
-* [all open issues across our org](https://github.com/search?q=org%3Aprivacycg+is%3Aissue+is%3Aopen)
-* [all open PRs across our org](https://github.com/search?q=org%3Aprivacycg+is%3Apr+is%3Aopen)
-* [what is noon boston time in other timezones for a given day](https://www.timeanddate.com/worldclock/converter.html)
+| Date  | Topic | Minutes |
+| ----- | ----- | ------- |
+| 03-26 | [JS Isolation via Origin Labels and Membranes](https://github.com/privacycg/js-membranes) | [minutes](03-26-membranes-minutes.md) |
+| 04-23 | [Bounce Tracking Protection](https://github.com/privacycg/proposals/issues/6) | [minutes](04-23-bouncetracking-minutes.md) |
