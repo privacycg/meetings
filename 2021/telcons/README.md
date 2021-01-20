@@ -16,7 +16,9 @@ We use [this Google Doc](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKm
 
 ## Join Zoom Meeting
 * Meeting ID: 769 153 986
-* https://mozilla.zoom.us/j/769153986
+* Zoom native client: https://mozilla.zoom.us/j/769153986
+* Zoom web client: https://zoom.us/wc/join/769153986?pwd=?
+
 
 * One tap mobile
     * +16699009128,,769153986# US (San Jose)
