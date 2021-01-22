@@ -166,6 +166,7 @@
     *   Ben: Global Privacy Control specifically controls refer to the sale of data?
     *   Ash: In this initial implementation
     *   Sebastian: Under GDPR, there is the right to object to the processing of personal data. In the CCPA it’s called Do Not Sell. I looked up different privacy laws from Africa and China. They also talk about the objection to the processing of personal data. Generally the right to object to the processing of personal data.
+    [Sebastian clarification 12/12/2020: my suggestion for an objection to processing in the GDPR context was to mirror what the “do not sell” signal signifies in California: objection to processing by anyone other than the controller]
     *   Ben: Processing refers to everything, not sharing or selling.
     *   Ash: What you’re asking about what the legal regime is. I would take a look at FB’s current position on the 
     *   Ben: This spec is very unclear what it maps to or what is the default.
