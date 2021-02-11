@@ -19,8 +19,12 @@ Privacy CG calls are at noon Boston time (EST). Noon EST translates to:
 
 ## Agenda
 
-* Overview of [Apple's Private Click Measurement Announcement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/)
+* [Private Click Measurement](https://github.com/privacycg/private-click-measurement)
+    * Overview of [Apple's Private Click Measurement Announcement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm/)
+    * [The "Etsy Issue" #60](https://github.com/privacycg/private-click-measurement/issues/60)
+    * [Ads / No-ads measurement #64](https://github.com/privacycg/private-click-measurement/issues/64)
 * Update on First Party Sets in Chrome
+* Update on Global Privacy Control - https://globalprivacycontrol.org/press-release/20210128
 * Any other business
 
 
