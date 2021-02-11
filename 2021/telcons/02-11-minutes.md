@@ -1,4 +1,4 @@
-Privacy CG Ad hoc on Storage Access API, 11 February
+Privacy CG Teleconference, 11 February
 * Chair: Tanvi Vyas
 * Scribe: Michael Kleber
 
