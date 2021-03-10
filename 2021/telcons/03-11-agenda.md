@@ -23,7 +23,7 @@ Privacy CG calls are at noon Boston time (EST). Noon EST translates to:
     * [Enable the advertiser/merchant to choose not to send attribution reports to click sources #65](https://github.com/privacycg/private-click-measurement/issues/65)
     * [Offer same-site pixel "API" as alternative to a JavaScript API #71](https://github.com/privacycg/private-click-measurement/issues/71)
     * [Support measurement of non-paid/organic clicks #72](https://github.com/privacycg/private-click-measurement/issues/72)
-* [First Party Sets](https://github.com/privacycg/private-click-measurement)
+* [First Party Sets](https://github.com/privacycg/first-party-sets)
     * [Software as a service use case for FPS #33](https://github.com/privacycg/first-party-sets/issues/33)
     * [Cache partitioning impacts perf optimizations that FPS might help recover #35](https://github.com/privacycg/first-party-sets/issues/35)
 * Any other business
