@@ -25,7 +25,6 @@ Privacy CG calls are at noon Boston time (EST). Noon EST translates to:
     * [Support measurement of non-paid/organic clicks #72](https://github.com/privacycg/private-click-measurement/issues/72)
 * [First Party Sets](https://github.com/privacycg/private-click-measurement)
     * [Software as a service use case for FPS #33](https://github.com/privacycg/first-party-sets/issues/33)
-    * [Offer same-site pixel "API" as alternative to a JavaScript API #71](https://github.com/privacycg/private-click-measurement/issues/71)
     * [Cache partitioning impacts perf optimizations that FPS might help recover #35](https://github.com/privacycg/first-party-sets/issues/35)
 * Any other business
     * Virtual F2F in May; please respond to [Doodle Poll](https://doodle.com/poll/ad75unudbfizeamb?utm_source=poll&utm_medium=link)
