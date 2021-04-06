@@ -3,14 +3,14 @@
 The Privacy CG meets on the **2nd and 4th Thursdays** of each month, at
 noon Boston time (EDT). That translates to
 
-| Time         | Day   | Location      |
-| ------------ | ----- | ------------- |
-| 01:00        | 9 Fri | Tokyo         |
-| 02:00        | 9 Fri | Sydney        |
-| 09:00        | 8 Thu | San Francisco |
-| 12:00 (noon) | 8 Thu | Boston        |
-| 17:00 (5 PM) | 8 Thu | London        |
-| 18:00 (6 PM) | 8 Thu | Brussels      |
+| Time         | Day | Location      |
+| ------------ | --- | ------------- |
+| 01:00        | Fri | Tokyo         |
+| 02:00        | Fri | Sydney        |
+| 09:00        | Thu | San Francisco |
+| 12:00 (noon) | Thu | Boston        |
+| 17:00 (5 PM) | Thu | London        |
+| 18:00 (6 PM) | Thu | Brussels      |
 
 We use [this Google Doc](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit#) for taking minutes.
 
