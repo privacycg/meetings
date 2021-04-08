@@ -2,6 +2,12 @@
 
 We have not yet scheduled any face-to-face meetings in 2021.
 
+We have one face-to-face meeting scheduled:
+
+* [May 2021 Virtual F2F](05-virtual)
+
+And we anticipate having one or two other F2Fs later in the year.
+
 We have regular [teleconferences](telcons/) throughout the year.
 
 ## Useful links for chairs when creating F2F agendas
