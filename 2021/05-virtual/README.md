@@ -28,9 +28,42 @@ The meeting will be held on **19–20 May** at **15:00 to 19:00 UTC**. Those tim
 
 ## Agenda
 
-We have not yet drafted the agenda.
+All times listed below Pacific Daylight Time!
 
-Anyone can request that specific issues or PRs be added to the F2F agenda by adding the `agenda+F2F` label to the issue or PR. Here's a list of [every issue and PR that currently has this label](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2BF2F).
+### Day 1
+* 8:00 - 8:15 PDT Introductions
+* 8:15 - 9:00 PDT [Storage Partitioning](https://github.com/privacycg/storage-partitioning)
+    * Adjacent Standards update
+    * [Partitioning + Storage Access API](https://github.com/privacycg/storage-access/issues/75)
+* 9:00 - 9:15 PDT Break
+* 9:15 - 10:00 PDT [Storage Access API](https://github.com/privacycg/storage-access)
+Update on recent changes
+[Means to observe availability of storage access](https://github.com/privacycg/storage-access/issues/55) 
+* 10:00- 10:30 PDT Break
+* 10:30 - 11:15 PDT [IsLoggedIn](https://github.com/privacycg/is-logged-in)
+    * Quick Recap on IsLoggedIn
+    * [#15 Should we standardize how we expect browsers to use this signal?](https://github.com/privacycg/is-logged-in/issues/15)
+    * [#17 Mediated vs Unmediated Logins](https://github.com/privacycg/is-logged-in/issues/17)
+    * Federation - [#35 Support for federated logins, or the ability to transfer IsLoggedIn](https://github.com/privacycg/is-logged-in/issues/35)
+    * Federation - [#30 What does logout mean in a federated context?](https://github.com/privacycg/is-logged-in/issues/30)
+* 11:15 - 11:30 PDT Break
+* 11:30 - 12:00 PDT [Bounce Tracking](https://github.com/privacycg/proposals/issues/6)
+* 12:00 - 12:10 PDT Optional Break
+* 12:10 - 1:00 PDT Optional Mixer / Hallway Chat during Lunch/Snack
+
+### Day 2
+* 8:00 - 8:45 PDT [First-Party Sets](https://github.com/privacycg/first-party-sets)
+    * Use-cases and specific applications (SameParty cookies, cookie partitioning, etc.).
+* 8:45 - 9:00 PDT Break
+* 9:00 - 9:30 PDT [RSA Blind Signatures](https://datatracker.ietf.org/doc/draft-wood-cfrg-rsa-blind-signatures/)
+* 9:30 - 10:15 PDT [Private Click Measurement](https://github.com/privacycg/private-click-measurement)
+    * [Fraud prevention](https://github.com/privacycg/private-click-measurement/issues/41) 
+    * [Advertiser control over reports going to publishers](https://github.com/privacycg/private-click-measurement/issues/65)
+    * [JS API vs same-site pixel API](https://github.com/privacycg/private-click-measurement/issues/71) 
+* 10:15 - 10:45 PDT  Break
+* 10:45 - 11:15 PDT Work Item Status
+Status of various work items and where we are with each. Which work items look like they are converging enough to move to standards bodies?
+* 11:15 - 12:00 PDT Closing Remarks
 
 ## Minutes
 
