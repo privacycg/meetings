@@ -34,11 +34,11 @@ All times listed below Pacific Daylight Time!
 * 8:00 - 8:15 PDT Introductions
 * 8:15 - 9:00 PDT [Storage Partitioning](https://github.com/privacycg/storage-partitioning)
     * Adjacent Standards update
-    * [Partitioning + Storage Access API](https://github.com/privacycg/storage-access/issues/75)
+    * [#75 Partitioning + Storage Access API](https://github.com/privacycg/storage-access/issues/75)
 * 9:00 - 9:15 PDT Break
 * 9:15 - 10:00 PDT [Storage Access API](https://github.com/privacycg/storage-access)
-Update on recent changes
-[Means to observe availability of storage access](https://github.com/privacycg/storage-access/issues/55) 
+    * Update on recent changes
+    * [#55 Means to observe availability of storage access](https://github.com/privacycg/storage-access/issues/55) 
 * 10:00- 10:30 PDT Break
 * 10:30 - 11:15 PDT [IsLoggedIn](https://github.com/privacycg/is-logged-in)
     * Quick Recap on IsLoggedIn
@@ -57,9 +57,9 @@ Update on recent changes
 * 8:45 - 9:00 PDT Break
 * 9:00 - 9:30 PDT [RSA Blind Signatures](https://datatracker.ietf.org/doc/draft-wood-cfrg-rsa-blind-signatures/)
 * 9:30 - 10:15 PDT [Private Click Measurement](https://github.com/privacycg/private-click-measurement)
-    * [Fraud prevention](https://github.com/privacycg/private-click-measurement/issues/41) 
-    * [Advertiser control over reports going to publishers](https://github.com/privacycg/private-click-measurement/issues/65)
-    * [JS API vs same-site pixel API](https://github.com/privacycg/private-click-measurement/issues/71) 
+    * [#41 Fraud prevention](https://github.com/privacycg/private-click-measurement/issues/41) 
+    * [#65 Advertiser control over reports going to publishers](https://github.com/privacycg/private-click-measurement/issues/65)
+    * [#71 JS API vs same-site pixel API](https://github.com/privacycg/private-click-measurement/issues/71) 
 * 10:15 - 10:45 PDT  Break
 * 10:45 - 11:15 PDT Work Item Status
 Status of various work items and where we are with each. Which work items look like they are converging enough to move to standards bodies?
