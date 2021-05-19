@@ -62,7 +62,7 @@ All times listed below Pacific Daylight Time!
     * [#71 JS API vs same-site pixel API](https://github.com/privacycg/private-click-measurement/issues/71) 
 * 10:15 - 10:45 PDT  Break
 * 10:45 - 11:15 PDT Work Item Status
-Status of various work items and where we are with each. Which work items look like they are converging enough to move to standards bodies?
+    * Status of various work items and where we are with each. Which work items look like they are converging enough to move to standards bodies?
 * 11:15 - 12:00 PDT Closing Remarks
 
 ## Minutes
