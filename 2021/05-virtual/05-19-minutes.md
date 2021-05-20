@@ -226,15 +226,15 @@ John
          * we can cover it quickly next topic
 
 ### [#17 Mediated vs Unmediated Logins](https://github.com/privacycg/is-logged-in/issues/17)
-         * Is the browser involved or not in setting the login?
-         * Differentiate between browser mediated credentials and browser mediated logins
-         * Asking for folks to chime in on issue
+   * Is the browser involved or not in setting the login?
+   * Differentiate between browser mediated credentials and browser mediated logins
+   * Asking for folks to chime in on issue
 At time
 
 ### Federation - [#35 Support for federated logins, or the ability to transfer IsLoggedIn](https://github.com/privacycg/is-logged-in/issues/35)
-         * Didn’t get to.
+   * Didn’t get to.
 ### Federation - [#30 What does logout mean in a federated context?](https://github.com/privacycg/is-logged-in/issues/30)
-         * Didn’t get to.
+   * Didn’t get to.
 
 
 ## [Bounce Tracking](https://github.com/privacycg/proposals/issues/6) (Johann [Mozilla] / Pete Synder [Brave], Scribe:Michael Kleber )
