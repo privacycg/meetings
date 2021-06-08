@@ -6,8 +6,8 @@ Privacy CG calls are at noon Boston time (EST). Noon EDT translates to:
 
 | Time         | Day    | Location      |
 | ------------ | ------ | ------------- |
-| 02:00        | 11 Fri | Tokyo         |
-| 01:00        | 11 Fri | Sydney        |
+| 01:00        | 11 Fri | Tokyo         |
+| 02:00        | 11 Fri | Sydney        |
 | 09:00        | 10 Thu | San Francisco |
 | 12:00 (noon) | 10 Thu | Boston        |
 | 17:00 (5 PM) | 10 Thu | London        |
