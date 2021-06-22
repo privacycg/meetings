@@ -19,7 +19,7 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 
 ## Agenda
 * [First-Party Sets](https://github.com/privacycg/first-party-sets)
-    * [Technical-only enforcement of "UA Policy"? #43](https://github.com/privacycg/first-party-sets/issues/43)
+    * [#43 - Technical-only enforcement of "UA Policy"?](https://github.com/privacycg/first-party-sets/issues/43)
 * [Storage Access API](https://github.com/privacycg/storage-access)
     * [#83 - Allow forward-declaration of storage access need](https://github.com/privacycg/storage-access/issues/83)
     * [#82 - Consider: Unblock federated logout by making storage access allowance symmetric](https://github.com/privacycg/storage-access/issues/82)
