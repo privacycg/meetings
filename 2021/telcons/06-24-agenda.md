@@ -2,7 +2,7 @@
 
 ## Logistics
 
-Privacy CG calls are at noon Boston time (EST). Noon EDT translates to:
+Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 
 | Time         | Day    | Location      |
 | ------------ | ------ | ------------- |
