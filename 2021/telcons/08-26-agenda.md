@@ -25,6 +25,7 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
   * [Ask: Allow some RP customization of the storage access API prompt to explain why "tracking" is needed. #90](https://github.com/privacycg/storage-access/issues/90)
 * [First-Party Sets](https://github.com/privacycg/first-party-sets)
   * [Add "Clearing Site Data on Set Transitions" section. #57](https://github.com/privacycg/first-party-sets/pull/57)
+* [Ad Topic Hints proposal](https://github.com/privacycg/ad-topic-hints) updates
 * Announcements
   * APAC-friendly call time every other month (5 PM EDT for September 23rd call)
   * Face-to-face (non-)plan
