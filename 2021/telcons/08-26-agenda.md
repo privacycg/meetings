@@ -22,7 +22,7 @@ Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
 * [Navigation-based Tracking Mitigations Work Item](https://github.com/privacycg/nav-tracking-mitigations)
 * [Storage Access API](https://github.com/privacycg/storage-access)
   * [Let embedees optionally request access to partitioned cookies and storage #75](https://github.com/privacycg/storage-access/issues/75)
-  * [Ask: Allow some RP customization of the storage access API prompt to explain why "tracking" is needed. #90](https://github.com/privacycg/storage-access/issues/90)
+  * [Allow forward-declaration of storage access need #83](https://github.com/privacycg/storage-access/issues/83)
 * [First-Party Sets](https://github.com/privacycg/first-party-sets)
   * [Add "Clearing Site Data on Set Transitions" section. #57](https://github.com/privacycg/first-party-sets/pull/57)
 * [Ad Topic Hints proposal](https://github.com/privacycg/ad-topic-hints) updates
