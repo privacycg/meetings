@@ -22,7 +22,6 @@ APAC-friendly Privacy CG calls are at 5 PM Boston time (EDT). 5 PM EDT translate
 * [Navigation-based Tracking Mitigations](https://github.com/privacycg/nav-tracking-mitigations)
   * [Are a lat/lon/zoom triple in a URL decoration/tracking? #4](https://github.com/privacycg/nav-tracking-mitigations/issues/4)
   * [Are unsubscribe links with a user ID link decoration and/or tracking? #5](https://github.com/privacycg/nav-tracking-mitigations/issues/5)
-  * [Added a section explaining users can agree to pass information #7](https://github.com/privacycg/nav-tracking-mitigations/pull/7)
-  * [Define navigational tracking as "without the user's knowledge"? #8](https://github.com/privacycg/nav-tracking-mitigations/issues/8)
+  * How does user intent fit into navigational tracking? Issues [Define navigational tracking as "without the user's knowledge"? #8](https://github.com/privacycg/nav-tracking-mitigations/issues/8) and [Added a section explaining users can agree to pass information between domains via the URL. #9](https://github.com/privacycg/nav-tracking-mitigations/pull/9)
 * Any other business
 
