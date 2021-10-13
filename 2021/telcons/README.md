@@ -23,4 +23,4 @@ Please see https://lists.w3.org/Archives/Member/internal-privacycg/2021Jun/0000.
 * [everything labeled agenda+ across our org](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2B&unscoped_q=label%3Aagenda%2B)
 * [all open issues across our org](https://github.com/search?q=org%3Aprivacycg+is%3Aissue+is%3Aopen)
 * [all open PRs across our org](https://github.com/search?q=org%3Aprivacycg+is%3Apr+is%3Aopen)
-* [what is noon boston time in other timezones for a given day](https://www.timeanddate.com/worldclock/converter.html)
+* [what is noon boston time in other timezones for a given day](https://www.timeanddate.com/worldclock/converter.html?iso=20211014T160000&p1=43&p2=248&p3=240&p4=224&p5=136&p6=48)
