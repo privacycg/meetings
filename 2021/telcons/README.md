@@ -5,8 +5,8 @@ noon Boston time (EDT). That translates to
 
 | Time         | Day | Location      |
 | ------------ | --- | ------------- |
-| 01:00        | Fri | Tokyo         |
-| 02:00        | Fri | Sydney        |
+| 02:00        | Fri | Tokyo         |
+| 04:00        | Fri | Sydney        |
 | 09:00        | Thu | San Francisco |
 | 12:00 (noon) | Thu | Boston        |
 | 17:00 (5 PM) | Thu | London        |
@@ -23,4 +23,4 @@ Please see https://lists.w3.org/Archives/Member/internal-privacycg/2021Jun/0000.
 * [everything labeled agenda+ across our org](https://github.com/search?q=org%3Aprivacycg+label%3Aagenda%2B&unscoped_q=label%3Aagenda%2B)
 * [all open issues across our org](https://github.com/search?q=org%3Aprivacycg+is%3Aissue+is%3Aopen)
 * [all open PRs across our org](https://github.com/search?q=org%3Aprivacycg+is%3Apr+is%3Aopen)
-* [what is noon boston time in other timezones for a given day](https://www.timeanddate.com/worldclock/converter.html?iso=20211014T160000&p1=43&p2=248&p3=240&p4=224&p5=136&p6=48)
+* [what is noon boston time in other timezones for a given day](https://www.timeanddate.com/worldclock/converter.html?iso=20211209T170000&p1=43&p2=248&p3=240&p4=224&p5=136&p6=48)
