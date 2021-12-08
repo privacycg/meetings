@@ -1,7 +1,7 @@
 # Privacy Community Group Teleconferences in 2021
 
-The Privacy CG meets on the **2nd and 4th Thursdays** of each month, at
-noon Boston time (EDT). That translates to
+The Privacy CG meets on the **2nd and 4th Thursdays** of each month, typically at
+noon Boston time (EST). That translates to:
 
 | Time         | Day | Location      |
 | ------------ | --- | ------------- |
@@ -11,6 +11,16 @@ noon Boston time (EDT). That translates to
 | 12:00 (noon) | Thu | Boston        |
 | 17:00 (5 PM) | Thu | London        |
 | 18:00 (6 PM) | Thu | Brussels      |
+
+We sometimes meet at the APAC-friendly time 7pm Boston time (EST). That translates to:
+| Time         | Day | Location      |
+| ------------ | --- | ------------- |
+| 09:00        | Fri | Tokyo         |
+| 11:00        | Fri | Sydney        |
+| 16:00 (4 PM) | Thu | San Francisco |
+| 19:00 (7 PM) | Thu | Boston        |
+| 00:00 (midnight)| Fri | London     |
+| 01:00        | Fri | Brussels      |
 
 We use [this Google Doc](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit#) for taking minutes.
 
