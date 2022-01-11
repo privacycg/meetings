@@ -1,7 +1,7 @@
 # 13 January 2022
 ## Logistics
 
-APAC-friendly Privacy CG call at 7:00 pm Boston time (EDT). 7:00 EDT translates to:
+APAC-friendly Privacy CG call at 7:00 pm Boston time (EST). 7:00 EST translates to:
 
 | Time             | Day    | Location      |
 | ---------------- | ------ | ------------- |
