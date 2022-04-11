@@ -23,4 +23,4 @@ Europe-friendly Privacy CG calls are at noon Boston time (EDT). Noon EDT transla
 * [Storage Access API](https://github.com/privacycg/storage-access)
     * [Reject with meaningful exceptions vs undefined. #37](https://github.com/privacycg/storage-access/issues/37)
 * Any other business
-    * Reminder: [our next meeting on March 10th](https://www.w3.org/events/meetings/811c2c7a-ef52-46e5-8bcd-8ee8fc4f09c4/20220310T120000) is at the APAC-friendly time.
+    * Reminder: our next meeting on April 28th will discuss [Cross-site cookies standardization](https://github.com/privacycg/meetings/issues/16)
