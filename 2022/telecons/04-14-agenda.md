@@ -22,5 +22,6 @@ Europe-friendly Privacy CG calls are at noon Boston time (EDT). Noon EDT transla
 * [Storage Access API](https://github.com/privacycg/storage-access)
     * [Reject with meaningful exceptions vs undefined. #37](https://github.com/privacycg/storage-access/issues/37)
 * [Discuss acceptable use cases for site usage of CNAMEs #17](https://github.com/privacycg/meetings/issues/17)
+* [Updates to PCM in Safari](https://webkit.org/blog/12566/private-click-measurement-conversion-fraud-prevention-and-replacement-for-tracking-pixels/)
 * Any other business
     * Reminder: our next meeting on April 28th will discuss [Cross-site cookies standardization](https://github.com/privacycg/meetings/issues/16)
