@@ -19,6 +19,5 @@ Europe-friendly Privacy CG calls are at noon Boston time (EDT). Noon EDT transla
   * [Forward Declared API Addition #100](https://github.com/privacycg/storage-access/pull/100) pull request
 * [CHIPS](https://github.com/privacycg/CHIPS)
   * [Should CHIPS be hostname-bound? (the no-Domain requirement) #43](https://github.com/privacycg/CHIPS/issues/43)
-* Update on [Cookies Having Independent Partitioned State - CHIPS](https://github.com/privacycg/proposals/issues/30)
 * Any other business
     * Charter updates: [PR #38](https://github.com/privacycg/privacycg.github.io/pull/38), [PR #39](https://github.com/privacycg/privacycg.github.io/pull/39)
