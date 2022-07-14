@@ -1,4 +1,4 @@
-# 09 June 2022
+# 14 July 2022
 ## Logistics
 [W3C Privacy CG Calendar](https://www.w3.org/groups/cg/privacycg/calendar)
 Europe-friendly Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
