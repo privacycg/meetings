@@ -1,12 +1,12 @@
 # 2022-08-25 Telecon
 ## Logistics
 [W3C Privacy CG Calendar](https://www.w3.org/groups/cg/privacycg/calendar)
-APAC-friendly Privacy CG calls are at 00:00 UTC (midnight the next day).
+APAC-friendly Privacy CG calls are at 23:00 UTC.
 That translates to:
 | Time             | Day | Location      |
 | ---------------- | --- | ------------- |
 | 08:00            | Fri | Tokyo         |
-| 10:00            | Fri | Sydney        |
+| 09:00            | Fri | Sydney        |
 | 16:00 (4 PM)     | Thu | San Francisco |
 | 19:00 (7 PM)     | Thu | Boston        |
 | 00:00 (midnight) | Fri | London        |
