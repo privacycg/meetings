@@ -30,7 +30,7 @@ for those who might find a fee to be a barrier to participation.
   * Discussion of privacy-related topics
   * Decision tree flows
 * Overview of group, brief status of open work items and proposals (chairs; 20m)
-* Storage Access (Johann ?; 40m)
+* Storage Access (Johann; 40m)
   * Status
   * Readiness for graduation
   * Remaining open issues
