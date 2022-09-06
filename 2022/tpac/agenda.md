@@ -25,7 +25,7 @@ for those who might find a fee to be a barrier to participation.
 ## Agenda
 
 * Setup, Welcome, Code of Conduct (chairs; 10m)
-* FedCM CG Coordination (Heather Flanagan: 30m)
+* FedID CG Coordination (Heather Flanagan: 30m)
   * Updates on FedCM work
   * Discussion of privacy-related topics
   * Decision tree flows
