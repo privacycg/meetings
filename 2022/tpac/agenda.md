@@ -40,3 +40,5 @@ for those who might find a fee to be a barrier to participation.
   * Remaining open issues
 * Spare (10m)
   * To allow for a break, transit time, or any other business
+  * As time permits, [navigation tracking mitigation
+    proposal](https://github.com/wanderview/bounce-tracking-mitigations/blob/main/explainer.md) (Ben Kelly)
