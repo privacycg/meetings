@@ -24,10 +24,10 @@ Note that remote participation requires registration, which includes a [EUR 240 
   * Status
   * Readiness for graduation
   * Remaining open issues
-* CHIPS (Dylan ?; 30m)
+* CHIPS (Brief overview) (Kaustubha, remote; 20m)
   * Status
   * Readiness for graduation
   * Remaining open issues
-* Spare (10m)
+* Spare (20m)
   * To allow for a break, transit time, or any other business
   * As time permits, [navigation tracking mitigation proposal](https://github.com/wanderview/bounce-tracking-mitigations/blob/main/explainer.md) (Ben Kelly)
