@@ -25,6 +25,7 @@ Note that remote participation requires registration, which includes a [EUR 240 
   * Readiness for graduation
   * Remaining open issues
 * CHIPS (Dylan ?; 30m)
+  * [Slide deck](https://drive.google.com/file/d/1wSUfOb7BIjtmsO6TdxyBMmw3RUQqCtGa/view)
   * Status
   * Readiness for graduation
   * Remaining open issues
