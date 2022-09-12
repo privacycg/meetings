@@ -12,6 +12,8 @@ Note that remote participation requires registration, which includes a [EUR 240 
 
 [W3C Privacy CG Calendar](https://www.w3.org/groups/cg/privacycg/calendar)
 
+Minutes will be taken in [this Google Docs document](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit#).
+
 ## Agenda
 
 * Setup, Welcome, Code of Conduct (chairs; 10m)
