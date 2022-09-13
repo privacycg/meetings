@@ -27,6 +27,7 @@ Minutes will be taken in [this Google Docs document](https://docs.google.com/doc
   * Readiness for graduation
   * Remaining open issues
 * CHIPS (Dylan ?; 30m)
+  * [Slide deck](https://drive.google.com/file/d/1wSUfOb7BIjtmsO6TdxyBMmw3RUQqCtGa/view)
   * Status
   * Readiness for graduation
   * Remaining open issues
