@@ -1,7 +1,7 @@
 # 8 December 2022
 ## Logistics
 [W3C Privacy CG Calendar](https://www.w3.org/groups/cg/privacycg/calendar)
-Europe-friendly Privacy CG calls are at noon Boston time (EDT). Noon EDT translates to:
+Europe-friendly Privacy CG calls are at noon Boston time (EST). Noon EST translates to:
 | Time         | Day    | Location      |
 | ------------ | ------ | ------------- |
 | 02:00        | 9 Fri | Tokyo         |
