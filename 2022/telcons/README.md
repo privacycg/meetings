@@ -1,22 +1,22 @@
 # Privacy Community Group Teleconferences in 2022
 
 The Privacy CG meets on the **2nd and 4th Thursdays** of each month, typically at
-noon Boston time (EDT). That translates to:
+noon Boston time (EST). That translates to:
 
-| Time         | Day | Location      |
-| ------------ | --- | ------------- |
-| 01:00        | Fri | Tokyo         |
-| 02:00        | Fri | Sydney        |
+| Time         | Day    | Location      |
+| ------------ | ------ | ------------- |
+| 02:00        | Fri | Tokyo         |
+| 04:00        | Fri | Sydney        |
 | 09:00        | Thu | San Francisco |
 | 12:00 (noon) | Thu | Boston        |
 | 17:00 (5 PM) | Thu | London        |
 | 18:00 (6 PM) | Thu | Brussels      |
 
-We sometimes meet at the APAC-friendly time 7pm Boston time (EDT). That translates to:
+We sometimes meet at the APAC-friendly time 7pm Boston time (EST). That translates to:
 | Time         | Day | Location      |
 | ------------ | --- | ------------- |
-| 08:00        | Fri | Tokyo         |
-| 09:00        | Fri | Sydney        |
+| 09:00        | Fri | Tokyo         |
+| 11:00        | Fri | Sydney        |
 | 16:00 (4 PM) | Thu | San Francisco |
 | 19:00 (7 PM) | Thu | Boston        |
 | 00:00 (midnight)| Fri | London     |
