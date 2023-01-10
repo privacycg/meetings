@@ -26,11 +26,11 @@ Minutes will be taken in [this Google Docs document](https://docs.google.com/doc
   * Status
   * Readiness for graduation
   * Remaining open issues
-* CHIPS (Dylan ?; 30m)
+* CHIPS (Brief overview) (Kaustubha, remote; 20m)
   * [Slide deck](https://drive.google.com/file/d/1wSUfOb7BIjtmsO6TdxyBMmw3RUQqCtGa/view)
   * Status
   * Readiness for graduation
   * Remaining open issues
-* Spare (10m)
+* Spare (20m)
   * To allow for a break, transit time, or any other business
   * As time permits, [navigation tracking mitigation proposal](https://github.com/wanderview/bounce-tracking-mitigations/blob/main/explainer.md) (Ben Kelly)
