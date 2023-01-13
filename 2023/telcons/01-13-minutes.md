@@ -42,6 +42,7 @@
    * Martin: the cases where spectre is there is fairly high and might need some sort of shared plumbing to pass back and forth
    * Chris: +1 the concern. If we go down the partitioning route then we need to worry about colluding partitions especially when controlled by the same entity. https://www.usenix.org/conference/woot17/workshop-program/presentation/van-goethem Side channels can be reliably created to link data not just between processes in browser but also between browsers and we confirmed some of this work
    * John: in the spectre case we could hope for 1 core per site where it gets more constrained overtime
+* Procedural updates
    * Martin: we moved the GPC spec into the org and make sure all the bits are there so everyone can contribute. I suspect the editors of that spec will be looking at those issues and raising things to update the charter and cover the changes. We might want to address the items that have been open for a while
    * John: what to move login status to FedCM and move PCM to the ad group
    * Martin: we can initiate those conversations when John is ready but may need to wait a bit on that.
