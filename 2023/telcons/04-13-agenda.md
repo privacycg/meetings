@@ -8,12 +8,12 @@ This call will take place at a Europe-friendly time: noon in Boston (EDT), which
 
 | Time         | Day    | Location      |
 | ------------ | ------ | ------------- |
-| 01:00        | 24 Fri | Tokyo         |
-| 02:00        | 24 Fri | Sydney        |
-| 09:00        | 23 Thu | San Francisco |
-| 12:00 (noon) | 23 Thu | Boston        |
-| 17:00 (5 PM) | 23 Thu | London        |
-| 18:00 (6 PM) | 23 Thu | Brussels      |
+| 01:00        | 14 Fri | Tokyo         |
+| 02:00        | 14 Fri | Sydney        |
+| 09:00        | 13 Thu | San Francisco |
+| 12:00 (noon) | 13 Thu | Boston        |
+| 17:00 (5 PM) | 13 Thu | London        |
+| 18:00 (6 PM) | 13 Thu | Brussels      |
 
 We are using Zoom for the meeting. [Dial-in details](https://lists.w3.org/Archives/Member/internal-privacycg/2021Jun/0000.html) are restricted to [Privacy CG group participants](https://www.w3.org/community/privacycg/participants).
 
