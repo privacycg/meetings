@@ -1,6 +1,6 @@
 # Privacy CG @ TPAC 2023
 
-## Tentative Agenda
+## Agenda
 
 * Setup, Welcome, Code of Conduct (chairs; 10m)
 * [Storage Access API Graduation](https://github.com/privacycg/meetings/issues/31) (20m)
@@ -12,3 +12,5 @@
 * [Invasive Fingerprinting Protection](https://github.com/privacycg/meetings/issues/28) (30m)
 * [Pop-up partitioning / isolation](https://github.com/privacycg/meetings/issues/34) (10m)
 * [State of bounce tracking](https://github.com/privacycg/meetings/issues/29) (10m)
+
+Minutes: https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit
