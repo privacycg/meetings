@@ -12,7 +12,8 @@
 
 # Notes
 
-## Keying of "CHIPS" cookies should align with other state
+## [Keying of "CHIPS" cookies should align with other state](https://github.com/privacycg/CHIPS/issues/40)
+* [Link to presentation](https://docs.google.com/presentation/d/1X-duZz8YB09czfIgpqTWoAvCXqQjXuVh2lKBL3AzHo8/edit?usp=sharing)
 * Aaron: Talking about ABA embeds == cross-site embeds with a same-site ancestor.
 * Use case: 3p authenticatioSame-Site Embeds with Cross-Site Ancestors for CHIPSn like MS Authentication inside Salesforce inside MS Teams
 * CHIPS are only available on the top-level site where they're created. Prevents joining across top-level domains.
@@ -45,10 +46,10 @@
 * Lee: Not seeing the larger security benefit against the additional overhead.
 * Johann: We need to weigh that. We thought the utility benefit was greater, but in discussing it with Safari and Mozilla, we got the impression we needed to change our position and not leave these vulnerabilities open. In the ABA case, dev might be surprised that the B sites can embed images, and that leaks login state. Might not protect against that.
 * Lee: I want to read the writeup.
-* Johann: It talks about the storage access security model. [Public] Improving the Storage Access API security model
+* Johann: It talks about the storage access security model. [Improving the Storage Access API security model](https://docs.google.com/document/d/1AsrETl-7XvnZNbG81Zy9BcZfKbqACQYBSrjM3VsIpjY/edit)
 * Ben: From Firefox, we're supportive of adding this bit to the keying. Any lesson you have about the migration, we want to hear it. We'll have similar issues.
 
-## Fragment Directives API
+## [Fragment Directives API](https://github.com/privacycg/proposals/issues/40)
 * Eli: A bunch of browsers have implemented the scroll-to-text-fragment spec. This kinda changed the URL standard to hide the text fragment. I propose to continue hiding the text directive but open up the rest of the directives. Want web apps to be able to access this part of the URL. Open to feedback on the good shape of this API. It's a good area. Intended use described by scroll-to-text is how I use it. We make a pseudo-user-agent, and this is a good place to put commands. I'll show how we use it.
 * Eli: Consent manager. Lets you specify some fragment directives. Doesn't interfere with the rest of the customer's site.
 * Eli: I suspect we should keep protecting the text directive, but maybe not even that.
@@ -57,7 +58,7 @@
 * Jeffrey: Imitate Fetch's Sec- prefix?
 * Eli: Not the most ergonomic, but it's probably fine.
 
-## Extending Storage Access API (SAA) to non-cookie storage
+## [Extending Storage Access API (SAA) to non-cookie storage](https://github.com/privacycg/proposals/issues/41)
 * Ari: Discussed this at TPAC. requestStorageAccess currently deals with cookies. 3p context can call it, and if the origin. (For Chrome) in the same RWS, it's automatically granted, but other wise permission.
 * Proposal is that you can also ask for storage, and you get a handle back which gives you the 1p storage bucket. Give sites an easier way to access data, with the same privacy protections as the existing thing.
 * Ari: Right now it's an explainer, but we can write a PR.
@@ -68,7 +69,7 @@
 * Eli: I don't have any critiques, but this is wonderful for my use cases. For private data you want to share across websites and you have your own consent model. We had a prototype with FPS. This makes it possible to share the data without breaking the law. With cookie-only sharing, it has to hit the network, you can't share personal data. But with this you can store it locally. I think this is a privacy improvement. You can go to a site with our consent manager, if it's in a RWS, your choices will be shared within the set even if you haven't consented to share them yet.
 * Johann: This use case isn't iffy at all.
 
-## Third-party Cookie Access Heuristics explainer
+## [Third-party Cookie Access Heuristics explainer](https://github.com/privacycg/proposals/issues/42)
 * Johann: Anton presented this at TPAC. I'm not super prepared to present today. We're trying to standardize the cookie access heuristics that are in 2 browsers, and Chrome's prototyping them and trying to ship them. Want to document what's happening. Want it to be adopted by Privacy CG. Other browsers' opinions?
 * Tess: My understanding from the relevant WebKit engineers & folk at Mozilla is that while there are such heuristics, those are seen as temporary compatibility shims, and we'd like them to go away over time. There's a risk in specifying them that we'll ossify them. Want others to chime in.
 * Johann: One of our intents in standardizing this is to align on a way to get rid of them. They break some of the privacy and security goals from 3p cookie deprecation. They were necessary, but we want to get away from them eventually. It's massively adopted already. Websites have adopted this pattern, not just because it existed before, but they're writing documentation for how to build your website so it works in Safari. That's not a great situation. Writing up how it works and the fact that browsers want to get away from it. 3-year plan to take it away from the web seems preferable.
@@ -79,7 +80,7 @@
 * Lee: Reiterating, from the perspective of people who own iframes, standardizing on heuristics isn't what we want. We want explicit APIs where we can guarantee seamless SSO. PArent site, frame, and auth provider are all known, and they can define relationships that consumers never have to worry about. As we work through the heuristics, want to know that an iframe that needs authentication won't be broken. Whatever's put forward also needs to have a non-heuristic approach.
 * Brian: When we talk about ossification, there's the implication that a browser vendor might be signing up to support something longer than they want to. Don't know if that's a concern.
 
-## Opener Storage Partitioning
+## [Opener Storage Partitioning](https://github.com/privacycg/proposals/issues/43)
 * Ari: Presented at TPAC. Much less certain proposal: lot's up for grabs. The basic idea is that, from a Chrome perspective, now that there's storage partitioning, we want to think about other avenues of storage pollution. Say you have a 3p iframe that opens a 1p frame for its own origin. It can postMessage, do sync scripting. This is critical for login flows and payments, so we don't want to disable it entirely. But mitigate the ways it could be used for tracking. 2 categories:
 * 1) Times you can sever the opening. When there's a cross-origin navigation in the opening frame, then does it make sense to preserve the opener relationship?
 * 2) Looking at partitioning the storage for opened windows, which is quite difficult from a user experience perspective. Popups might have a different partition. Or start with the opener severed, and you have an API to re-join, which could create a prompt.
