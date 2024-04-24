@@ -15,7 +15,7 @@ This call will take place at a Europe-friendly time: noon in Boston (EDT), which
 | 17:00 (5 PM) | Thu | London        |
 | 18:00 (6 PM) | Thu | Brussels      |
 
-We use [this Google Doc](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit#) for taking minutes.
+We use [this Google Doc](https://docs.google.com/document/d/1jxqW4kvGdclIWsOlWMXWLGpwu1wOorST2Ol6vJKAjDE/edit) for taking minutes.
 
 ### Join Meeting
 
