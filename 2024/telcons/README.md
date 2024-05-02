@@ -22,7 +22,7 @@ We sometimes meet at the APAC-friendly time 7pm Boston time (EST). That translat
 | 00:00 (midnight)| Fri | London     |
 | 01:00        | Fri | Brussels      |
 
-We use [this Google Doc](https://docs.google.com/document/d/1DZEhS1UHJ1PKxt5ZwKmn5LZ4bo10UFyNXeLp2dUuzRM/edit#) for taking minutes.
+We use [this Google Doc](https://docs.google.com/document/d/1jxqW4kvGdclIWsOlWMXWLGpwu1wOorST2Ol6vJKAjDE/edit) for taking minutes.
 
 ## Join Meeting
 Please see https://lists.w3.org/Archives/Member/internal-privacycg/2021Jun/0000.html for dial-in details. Access is restricted to Privacy CG group participants.
