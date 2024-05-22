@@ -23,5 +23,5 @@ Please see https://lists.w3.org/Archives/Member/internal-privacycg/2021Jun/0000.
 
 ## Agenda
 
-* [Partitioned Popins #196](https://github.com/privacycg/proposals/issues/47) ([Proposal](https://github.com/arichiv/partitioned-popins))
+* [Partitioned Popins](https://github.com/privacycg/proposals/issues/47) ([Proposal](https://github.com/arichiv/partitioned-popins))
 * Any other business
