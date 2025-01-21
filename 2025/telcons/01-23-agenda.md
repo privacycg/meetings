@@ -6,10 +6,10 @@ You can see a list of upcoming telcons on our [Privacy CG W3C Calendar page](htt
 
 This call will take place at a Europe-friendly time: noon in Boston (EDT), which translates to:
 
-| Time         | Day    | Location      |
-| ------------ | ------ | ------------- |
-| 01:00        | Fri | Tokyo         |
-| 02:00        | Fri | Sydney        |
+| Time         | Day | Location      |
+| ------------ | --- | ------------- |
+| 02:00        | Fri | Tokyo         |
+| 04:00        | Fri | Sydney        |
 | 09:00        | Thu | San Francisco |
 | 12:00 (noon) | Thu | Boston        |
 | 17:00 (5 PM) | Thu | London        |
