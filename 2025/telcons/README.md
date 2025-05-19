@@ -12,7 +12,7 @@ noon Boston time (EDT). That translates to:
 | 17:00 (5 PM) | Thu | London        |
 | 18:00 (6 PM) | Thu | Brussels      |
 
-We sometimes meet at the APAC-friendly time 7pm Boston time (EST). That translates to:
+We sometimes meet at the APAC-friendly time 7pm Boston time (EDT). That translates to:
 | Time         | Day | Location      |
 | ------------ | --- | ------------- |
 | 08:00        | Fri | Tokyo         |
