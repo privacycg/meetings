@@ -25,4 +25,8 @@ Please see https://lists.w3.org/Archives/Member/internal-privacycg/2021Jun/0000.
 * Google's [Privacy Sandbox update](https://privacysandbox.com/news/privacy-sandbox-next-steps/)
 * [Storage Partitioning](https://github.com/privacycg/storage-partitioning)
   * [Chrome Experimenting with cache sharing for extremely-pervasive scripts #49](https://github.com/privacycg/storage-partitioning/issues/49)
+* [Storage Access API for non-cookie Storage](https://github.com/privacycg/saa-non-cookie-storage)
+  * [Declaring constructors as methods is strange #31](https://github.com/privacycg/saa-non-cookie-storage/issues/31)
+* [Storage Access API](https://github.com/privacycg/storage-access)
+  * [How does storage access interact with Dedicated, Shared and Service Workers? #157](https://github.com/privacycg/storage-access/issues/157)
 * Any other business
