@@ -31,4 +31,6 @@ Please see https://lists.w3.org/Archives/Member/internal-privacycg/2021Jun/0000.
     * [Localhost port numbers #92](https://github.com/privacycg/CHIPS/issues/92)
   * [Navigation-based Tracking Mitigations](https://github.com/privacycg/nav-tracking-mitigations)
     * [Moving bounce tracking mitigations to the fetch standard #101](https://github.com/privacycg/nav-tracking-mitigations/issues/101)
+    * [Update BTM spec to encompass stateless bounces #95](https://github.com/privacycg/nav-tracking-mitigations/pull/95)
+    * [Add explainer: BTM for dual-use sites #100](https://github.com/privacycg/nav-tracking-mitigations/pull/100)
 * Any other business
